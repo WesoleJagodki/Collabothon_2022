@@ -2,9 +2,6 @@ import {StyleSheet} from "react-native";
 
 export const loading_screen = StyleSheet.create({
     container: {
-        flex: 1,
-        alignItems: "center",
-        justifyContent: "center",
         backgroundColor: "#000000"
     },
     picture1: {

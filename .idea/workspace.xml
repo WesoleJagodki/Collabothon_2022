@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9173394-11e7-4cb4-8ba6-8e9e8f00fbe3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/components/screens/RegistrationScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/styles/GlobalStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/styles/RegistrationScreenStyle.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/screens/LoadingScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/LoadingScreen.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/styles/LoadingScreenStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/styles/LoadingScreenStyle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigator/RootNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/navigator/RootNavigator.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657716093518</updated>
-      <workItem from="1657716095361" duration="13208000" />
+      <workItem from="1657716095361" duration="13948000" />
     </task>
     <task id="LOCAL-00001" summary="Add react-base, add new file system, change navigator file">
       <created>1657721380486</created>
@@ -88,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657729904804</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix opacity">
+      <created>1657730335177</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657730335177</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,7 +120,8 @@
     <MESSAGE value="Add react-base, add new file system, change navigator file" />
     <MESSAGE value="Add LoadingScreen without opacity" />
     <MESSAGE value="Fix LoadingScreen, add white opacity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix LoadingScreen, add white opacity" />
+    <MESSAGE value="Fix opacity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix opacity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
