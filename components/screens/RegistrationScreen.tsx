@@ -1,6 +1,7 @@
 import React from "react";
-import {Text, View} from "react-native";
+import {Text, ImageBackground} from "react-native";
 import {Button, NativeBaseProvider, Image, VStack, Input, HStack, Checkbox} from "native-base"
+import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view'
 
 import {global_style} from "../styles/GlobalStyle";
 import {registration_screen} from "../styles/RegistrationScreenStyle";
@@ -24,7 +25,7 @@ export const RegistrationScreen = function ({navigation} : any): JSX.Element {
 
     return (
         <NativeBaseProvider>
-            <View style={global_style.container}>
+            <KeyboardAwareScrollView contentContainerStyle={global_style.container}>
                 <VStack style={registration_screen.vstack1} alignItems="center">
                     <Text style={registration_screen.text1}>Create a New Account</Text>
                     <Text style={registration_screen.text2}>Create an account and enter the</Text>
@@ -58,7 +59,7 @@ export const RegistrationScreen = function ({navigation} : any): JSX.Element {
                     source={require("../../images/registration-screen-2.png")}
                     alt="Orientarium ZOO Łódź"
                 />
-            </View>
+            </KeyboardAwareScrollView>
         </NativeBaseProvider>
     );
 };
