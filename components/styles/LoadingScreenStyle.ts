@@ -5,13 +5,14 @@ export const loading_screen = StyleSheet.create({
         flex: 1,
         alignItems: "center",
         justifyContent: "center",
+        backgroundColor: "#000000"
     },
     picture1: {
         position: "absolute",
         right: 1,
         width: "100%",
         height: "100%",
-        backgroundColor: "#000000",
+        opacity: 0.52,
     },
     picture2: {
         position: "absolute",
