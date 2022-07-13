@@ -11,6 +11,7 @@ export const loading_screen = StyleSheet.create({
         right: 1,
         width: "100%",
         height: "100%",
+        backgroundColor: "#000000",
     },
     picture2: {
         position: "absolute",
@@ -30,7 +31,7 @@ export const loading_screen = StyleSheet.create({
         width: "87%",
         height: "7%",
         borderRadius: 20,
-        backgroundColor: "white",
+
     },
     text: {
         fontWeight: "bold",
