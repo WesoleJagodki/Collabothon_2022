@@ -33,6 +33,6 @@ export const loading_screen = StyleSheet.create({
     },
     text: {
         fontWeight: "bold",
-        fontSize: 15
+        fontSize: 15,
     }
 });
