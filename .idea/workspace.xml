@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9173394-11e7-4cb4-8ba6-8e9e8f00fbe3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-Medium.ttf" afterDir="false" />
+    <list default="true" id="c9173394-11e7-4cb4-8ba6-8e9e8f00fbe3" name="Changes" comment="RegistrationScreen is ready">
+      <change afterPath="$PROJECT_DIR$/images/registration-screen-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/registration-screen-2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/screens/RegistrationScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/RegistrationScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/styles/GlobalStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/styles/GlobalStyle.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/styles/LoadingScreenStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/styles/LoadingScreenStyle.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/styles/RegistrationScreenStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/styles/RegistrationScreenStyle.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657716093518</updated>
-      <workItem from="1657716095361" duration="19892000" />
+      <workItem from="1657716095361" duration="23979000" />
     </task>
     <task id="LOCAL-00001" summary="Add react-base, add new file system, change navigator file">
       <created>1657721380486</created>
@@ -111,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657731118267</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add RegistrationScreen">
+      <created>1657737325731</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657737325731</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +125,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -134,6 +149,8 @@
     <MESSAGE value="Fix LoadingScreen, add white opacity" />
     <MESSAGE value="Fix opacity" />
     <MESSAGE value="LoadingScreen is ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="LoadingScreen is ready" />
+    <MESSAGE value="Add RegistrationScreen" />
+    <MESSAGE value="RegistrationScreen is ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="RegistrationScreen is ready" />
   </component>
 </project>
