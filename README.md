@@ -26,6 +26,13 @@ Project is created with:
 
 
 # UI Figma - app prototype: 
-	https://www.figma.com/file/ImepfofEmGIGIiWEH72H3R/Collabathon-Weso%C5%82e-Jag%C3%B3dki
+	https://www.figma.com/file/ImepfofEmGIGIiWEH72H3R/Collabathon-Weso%C5%82e-Jag%C3%B3dki?node-id=0%3A1
 
 # Sources
+	<a href='https://www.freepik.com/vectors/hyena'>Hyena vector created by brgfx - www.freepik.com</a>  
+	<a href='https://www.freepik.com/vectors/animal-clipart'>Animal clipart vector created by brgfx - www.freepik.com</a>  
+	<a href='https://www.freepik.com/vectors/meerkat'>Meerkat vector created by brgfx - www.freepik.com</a>  
+	<a href="https://www.flaticon.com/free-icons/info" title="info icons">Info icons created by Freepik - Flaticon</a>  
+	<a href='https://www.freepik.com/vectors/animal-clipart'>Animal clipart vector created by brgfx - www.freepik.com</a>  
+	<a href='https://www.freepik.com/vectors/small-girl'>Small girl vector created by brgfx - www.freepik.com</a>  
+
