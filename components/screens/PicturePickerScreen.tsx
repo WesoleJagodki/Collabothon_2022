@@ -4,8 +4,9 @@ import React from 'react';
 
 import { Button, Image } from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
+import { NativeBaseProvider } from 'native-base';
 
-export default function PicturePickerScreen() {
+export default function PicturePickerScreen({navigation} : any) {
   const [image, setImage] = useState<null | string>(null);
 
   const pickImage = async () => {
@@ -29,7 +30,7 @@ export default function PicturePickerScreen() {
       // @ts-ignore
       formData.append('photo', { uri: localUri, name: filename, type });
 
-      console.log( { uri: localUri, name: filename, type });
+      console.log({ uri: localUri, name: filename, type });
 
       await fetch("http://127.0.0.1:8000/image", {
         method: 'POST',
@@ -42,9 +43,11 @@ export default function PicturePickerScreen() {
   };
 
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Button title="Pick an image from camera roll" onPress={pickImage} />
-      {image && <Image source={{ uri: image }} style={{ width: 200, height: 200 }} />}
-    </View>
+    <NativeBaseProvider>
+      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+        <Button title="Pick an image from camera roll" onPress={pickImage} />
+        {image && <Image source={{ uri: image }} style={{ width: 200, height: 200 }} />}
+      </View>
+    </NativeBaseProvider>
   );
 }
