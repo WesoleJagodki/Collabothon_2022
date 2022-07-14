@@ -20,13 +20,11 @@ export const TicketsScreen = function ({ navigation }: any): JSX.Element {
               goto="LoginScreen"
               text="Tickets"
           >
-            <Button>wfwfwfw</Button>
-          </Header>
-          <HStack style={tickets_screen_style.hstack1}>
+              <VStack style={tickets_screen_style.vstack2}>
+                  <Image source={require("../../images/header-1.png")} style={tickets_screen_style.picture1}></Image>
+              </VStack>
 
-              {/*<Image style={tickets_screen_style.picture1} source={require("../../images/shopping-cart 1.png")} />*/}
-              {/*<Text style={tickets_screen_style.text1}>Tickets</Text>*/}
-          </HStack>
+          </Header>
           <VStack style={tickets_screen_style.vstack1}>
               <HStack style={tickets_screen_style.hstack2}>
                   <VStack>

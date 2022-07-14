@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c9173394-11e7-4cb4-8ba6-8e9e8f00fbe3" name="Changes" comment="Add header">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/header/HeaderStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/HeaderStyle.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/screens/TicketsScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/TicketsScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/styles/TicketsScreenStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/styles/TicketsScreenStyle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/shopping-cart 1.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,7 @@
       <workItem from="1657716095361" duration="25404000" />
       <workItem from="1657781997036" duration="24508000" />
       <workItem from="1657815586833" duration="12383000" />
-      <workItem from="1657829644036" duration="1860000" />
+      <workItem from="1657829644036" duration="3199000" />
     </task>
     <task id="LOCAL-00001" summary="Add react-base, add new file system, change navigator file">
       <created>1657721380486</created>

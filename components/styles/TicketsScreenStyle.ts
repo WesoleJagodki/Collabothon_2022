@@ -30,5 +30,8 @@ export const tickets_screen_style = StyleSheet.create({
         flex: 5,
         backgroundColor: "green",
         width: "100%"
+    },
+    vstack2: {
+        marginLeft: 30
     }
 });
