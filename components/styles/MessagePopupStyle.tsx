@@ -1,14 +1,14 @@
 import { StyleSheet } from "react-native";
 
-export const ticket_popup_style = StyleSheet.create({
+export const message_popup_style = StyleSheet.create({
     centeredView: {
       flex: 1,
       justifyContent: "center",
       alignItems: "center",
     },
     modalView: {
-      flex: 0.24,
-      margin: 20,
+      flex: 0.12,
+      minWidth: 200,
       backgroundColor: "#F5F5F5",
       borderRadius: 20,
       alignItems: "center",
@@ -23,21 +23,17 @@ export const ticket_popup_style = StyleSheet.create({
     },
     button: {
       flex: 1,
-      marginTop: 10,
+      marginTop: 5,
+      minWidth: 200,
       alignContent: 'center',
       justifyContent: "center",
       borderStyle: "solid",
       borderColor: "#C3C3C3",
       borderWidth: 1,
       backgroundColor: "#F5F5F5",
-      borderRadius: 5
+      borderRadius: 12,
     },
     textStyle: {
-      textAlign: "center",
-
-    },
-    modalText: {
-      marginBottom: 15,
       textAlign: "center",
     },
     modalHeader: {
@@ -51,23 +47,4 @@ export const ticket_popup_style = StyleSheet.create({
       fontWeight: "bold",
       textAlign: "center",
     },
-    modalPrice: {
-      marginBottom: 15,
-      marginLeft: 10,
-      fontSize: 18,
-      fontWeight: "bold",
-      textAlign: "center",
-    },
-    ticketCount: {
-      margin: 5,
-    },
-    ticketButton: {
-      fontWeight: "bold",
-      width: 40,
-      height: 40,
-      justifyContent: 'center',
-      alignItems: 'center',
-      borderRadius: 100,
-      backgroundColor: '#E7EAEE',
-    }
   });

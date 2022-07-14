@@ -4,6 +4,8 @@ import { Button, NativeBaseProvider, Image } from "native-base";
 
 import { global_style } from "../styles/GlobalStyle";
 import { loading_screen } from "../styles/LoadingScreenStyle";
+import { BuyTicketPopup } from "../popups/BuyTicketPopup";
+import { MessagePopup } from "../popups/MessagePopup";
 
 export const LoadingScreen = function ({ navigation }: any): JSX.Element {
   return (
