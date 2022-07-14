@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9173394-11e7-4cb4-8ba6-8e9e8f00fbe3" name="Changes" comment="Add header">
-      <change afterPath="$PROJECT_DIR$/images/account-screen-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/header-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/header-2.png" afterDir="false" />
+    <list default="true" id="c9173394-11e7-4cb4-8ba6-8e9e8f00fbe3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/header/HeaderStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/HeaderStyle.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/LoadingScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/LoadingScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/LoginScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/LoginScreen.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/screens/MainScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/MainScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/RegistrationScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/RegistrationScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657716093518</updated>
       <workItem from="1657716095361" duration="25404000" />
-      <workItem from="1657781997036" duration="30938000" />
+      <workItem from="1657781997036" duration="33699000" />
     </task>
     <task id="LOCAL-00001" summary="Add react-base, add new file system, change navigator file">
       <created>1657721380486</created>
@@ -198,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657808489458</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Problem with navigator (header)">
+      <created>1657815990810</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1657815990810</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +243,8 @@
     <MESSAGE value="Add others screen (quest, tickets, info)" />
     <MESSAGE value="Fix colors" />
     <MESSAGE value="Add header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add header" />
+    <MESSAGE value="Problem with navigator (header)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problem with navigator (header)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
