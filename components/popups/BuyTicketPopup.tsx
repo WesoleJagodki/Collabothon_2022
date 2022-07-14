@@ -7,6 +7,7 @@ interface Props {
   visible: boolean;
   onOkPressed: any;
   onCancelPressed: any;
+  ticketImage: any;
   ticketDescription: string;
   ticketPrice: string;
 }
@@ -15,6 +16,7 @@ export const BuyTicketPopup = function ({
   visible,
   onOkPressed,
   onCancelPressed,
+  ticketImage,
   ticketDescription,
   ticketPrice
 }: Props): JSX.Element {
@@ -35,7 +37,7 @@ export const BuyTicketPopup = function ({
             <Text style={ticket_popup_style.modalText}>Specify the number of pieces you want to buy.</Text>
             <HStack>
               <Image
-                source={require("../../images/registration-screen-1.png")}
+                source={ticketImage}
                 width={90}
                 height={90}
                 style={{margin: 10}}
