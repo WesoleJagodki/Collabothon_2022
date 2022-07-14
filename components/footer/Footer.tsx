@@ -14,7 +14,7 @@ export const Footer = function ({navigation, currentScreen} : Props): JSX.Elemen
     return (
         <NativeBaseProvider>
             <View style={footer_style.container}>
-                <HStack space={6}>
+                <HStack space={5}>
                     <FooterItem navigation={navigation} page={FooterPage.HOME} isSelected={currentScreen === FooterPage.HOME}/>
                     <FooterItem navigation={navigation} page={FooterPage.QUESTS} isSelected={currentScreen === FooterPage.QUESTS}/>
                     <FooterItem navigation={navigation} page={FooterPage.TICKETS} isSelected={currentScreen === FooterPage.TICKETS}/>
