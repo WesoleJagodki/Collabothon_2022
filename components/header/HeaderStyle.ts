@@ -10,13 +10,21 @@ export const header_style = StyleSheet.create({
     left: -0.5 * screen_width,
     height: 0.1 * screen_height,
     width: screen_width,
-    justifyContent: "flex-end",
+    justifyContent: "space-between",
     alignItems: "center",
+    flexDirection: "row",
+    marginTop: 30,
   },
   text: {
     textAlign: "center",
     color: "#000000",
     fontSize: 24,
+  },
+  textcenter: {
+    textAlign: "center",
+    color: "#000000",
+    fontSize: 24,
+    left: "50%",
   },
   picture: {
     height: 30,
@@ -33,9 +41,6 @@ export const header_style = StyleSheet.create({
     top: "-25%",
   },
   button2: {
-    position: "absolute",
-    backgroundColor: 0,
-    left: 160,
-    top: "-60%",
+   backgroundColor: 0
   },
 });

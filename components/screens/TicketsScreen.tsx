@@ -7,14 +7,25 @@ import { global_style } from "../styles/GlobalStyle";
 import { Footer } from "../footer/Footer";
 import { FooterPage } from "../footer/FooterItem";
 import {tickets_screen_style} from "../styles/TicketsScreenStyle";
+import {Header} from "../header/Header";
 
 export const TicketsScreen = function ({ navigation }: any): JSX.Element {
   return (
     <NativeBaseProvider>
       <View style={global_style.container}>
+          <Header
+              navigation={navigation}
+              picture={3}
+              account={1}
+              goto="LoginScreen"
+              text="Tickets"
+          >
+            <Button>wfwfwfw</Button>
+          </Header>
           <HStack style={tickets_screen_style.hstack1}>
-              <Image style={tickets_screen_style.picture1} source={require("../../images/shopping-cart 1.png")} />
-              <Text style={tickets_screen_style.text1}>Tickets</Text>
+
+              {/*<Image style={tickets_screen_style.picture1} source={require("../../images/shopping-cart 1.png")} />*/}
+              {/*<Text style={tickets_screen_style.text1}>Tickets</Text>*/}
           </HStack>
           <VStack style={tickets_screen_style.vstack1}>
               <HStack style={tickets_screen_style.hstack2}>
