@@ -3,7 +3,7 @@ import { FooterPage } from "../../footer/FooterItem";
 import { global_style } from "../../styles/GlobalStyle";
 import { info_screen_style } from "../../styles/InfoScreenStyle";
 import { Header } from "../../header/Header";
-import { Button, NativeBaseProvider, Image } from "native-base";
+import { NativeBaseProvider, Image } from "native-base";
 import React from "react";
 import { Text, View } from "react-native";
 
@@ -46,7 +46,7 @@ export const InfoScreen = function ({ navigation }: any): JSX.Element {
         <Header
           navigation={navigation}
           picture={3}
-          account={1}
+          account={2}
           goto="LoginScreen"
           text="Info"
         />
