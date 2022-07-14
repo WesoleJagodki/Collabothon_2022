@@ -1,5 +1,3 @@
-import {StyleSheet} from "react-native";
+import { StyleSheet } from "react-native";
 
-export const main_screen_style = StyleSheet.create({
-
-});
+export const main_screen_style = StyleSheet.create({});

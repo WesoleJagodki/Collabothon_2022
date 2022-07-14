@@ -1,5 +1,3 @@
-import {StyleSheet} from "react-native";
+import { StyleSheet } from "react-native";
 
-export const quest_screen_style = StyleSheet.create({
-
-});
+export const quest_screen_style = StyleSheet.create({});
