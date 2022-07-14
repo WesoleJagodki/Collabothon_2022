@@ -16,5 +16,5 @@ export const footer_style = StyleSheet.create({
     picture: {
         height: 35,
         width: 35,
-    }
+    },
 });
