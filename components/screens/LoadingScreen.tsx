@@ -4,6 +4,8 @@ import { Button, NativeBaseProvider, Image } from "native-base";
 
 import { global_style } from "../styles/GlobalStyle";
 import { loading_screen } from "../styles/LoadingScreenStyle";
+import { BuyTicketPopup } from "../popups/BuyTicketPopup";
+import { MessagePopup } from "../popups/MessagePopup";
 
 export const LoadingScreen = function ({ navigation }: any): JSX.Element {
   return (
@@ -23,7 +25,7 @@ export const LoadingScreen = function ({ navigation }: any): JSX.Element {
           style={loading_screen.button}
           bg="white"
           _pressed={{ bg: "muted.300" }}
-          onPress={() => navigation.navigate("RegistrationScreen")}
+          onPress={() => navigation.navigate("LoginScreen")}
         >
           <Text style={loading_screen.text}>GET STARTED</Text>
         </Button>

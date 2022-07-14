@@ -166,6 +166,7 @@ export const RegistrationScreen = function ({ navigation }: any): JSX.Element {
               </Checkbox>
             </Checkbox.Group>
             <Button
+              bg="#5E9D75"
               style={registration_screen.button}
               colorScheme={"green"}
               onPress={register}

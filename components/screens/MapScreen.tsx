@@ -93,6 +93,7 @@ export const MapScreen = function ({ navigation }: any): JSX.Element {
             <Image
               style={map_screen.map}
               source={require("../../images/map-screen-2.jpg")}
+              alt="Orientarium ZOO Łódź"
             />
           </ScrollView>
         </ScrollView>

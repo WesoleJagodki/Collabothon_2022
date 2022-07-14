@@ -8,7 +8,8 @@ import { MainScreen } from "../components/screens/MainScreen";
 import { QuestScreen } from "../components/screens/QuestScreen";
 import { TicketsScreen } from "../components/screens/TicketsScreen";
 import { MapScreen } from "../components/screens/MapScreen";
-import { InfoScreen } from "../components/screens/InfoScreen";
+import { InfoScreen } from "../components/screens/info/InfoScreen";
+import { AboutUs } from "../components/screens/info/AboutUs";
 
 import { PicturePickerScreen } from "../components/screens/PicturePickerScreen";
 
@@ -56,6 +57,11 @@ export const RootNavigator = function (): JSX.Element {
         name="InfoScreen"
         component={InfoScreen}
         options={{ title: "InfoScreen" }}
+      />
+      <Stack.Screen
+        name="AboutUs"
+        component={AboutUs}
+        options={{ title: "AboutUs" }}
       />
 
       <Stack.Screen

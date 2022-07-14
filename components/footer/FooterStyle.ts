@@ -30,5 +30,9 @@ export const footer_style = StyleSheet.create({
   },
   button: {
     backgroundColor: "0",
+    flex: 1,
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });

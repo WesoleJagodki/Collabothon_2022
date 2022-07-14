@@ -97,6 +97,7 @@ export const LoginScreen = function ({ navigation }: any): JSX.Element {
             </View>
             <Text style={login_screen.text3}>Recovery Password</Text>
             <Button
+              bg="#5E9D75"
               style={login_screen.button}
               colorScheme={"green"}
               onPress={login}

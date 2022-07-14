@@ -12,7 +12,13 @@ export const MainScreen = function ({ navigation }: any): JSX.Element {
   return (
     <NativeBaseProvider>
       <View style={global_style.container}>
-        <Header />
+        <Header
+          navigation={navigation}
+          picture={3}
+          account={1}
+          goto="LoginScreen"
+          text="Home"
+        />
         <Footer navigation={navigation} currentScreen={FooterPage.HOME} />
       </View>
     </NativeBaseProvider>
