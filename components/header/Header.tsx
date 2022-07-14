@@ -26,11 +26,14 @@ export const Header = function ({
   goto,
   picture,
   account,
+  children
 }: Props): JSX.Element {
   return (
     <NativeBaseProvider>
       <View style={header_style.container}>
-        <HStack>
+          <View>
+              {children}
+          </View>
           <Button
             style={header_style.button1}
             onPress={() => navigation.navigate(goto)}
@@ -42,7 +45,7 @@ export const Header = function ({
             />
           </Button>
 
-          <Text style={header_style.text}>{text}</Text>
+          <Text style={children?header_style.text:header_style.textcenter}>{text}</Text>
           <Button
             style={header_style.button2}
             onPress={() => navigation.navigate("RegistrationScreen")}
@@ -53,7 +56,6 @@ export const Header = function ({
               alt="Orientarium ZOO Łódź"
             />
           </Button>
-        </HStack>
       </View>
     </NativeBaseProvider>
   );

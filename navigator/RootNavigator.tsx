@@ -20,7 +20,7 @@ export const RootNavigator = function (): JSX.Element {
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen
         name="Root"
-        component={LoadingScreen}
+        component={TicketsScreen}
         options={{ title: "LoadingScreen" }}
       />
       <Stack.Screen
