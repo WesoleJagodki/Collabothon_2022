@@ -14,12 +14,12 @@ export const Footer = function ({navigation, currentScreen} : Props): JSX.Elemen
     return (
         <NativeBaseProvider>
             <View style={footer_style.container}>
-                <HStack space={5}>
-                    <FooterItem navigation={navigation} page={FooterPage.HOME} isSelected={currentScreen === FooterPage.HOME}/>
-                    <FooterItem navigation={navigation} page={FooterPage.QUESTS} isSelected={currentScreen === FooterPage.QUESTS}/>
-                    <FooterItem navigation={navigation} page={FooterPage.TICKETS} isSelected={currentScreen === FooterPage.TICKETS}/>
-                    <FooterItem navigation={navigation} page={FooterPage.MAP} isSelected={currentScreen === FooterPage.MAP}/>
-                    <FooterItem navigation={navigation} page={FooterPage.INFO} isSelected={currentScreen === FooterPage.INFO}/>
+                <HStack space={4}>
+                    <FooterItem navigation={navigation} page={FooterPage.HOME} isSelected={currentScreen === FooterPage.HOME} text="Home"/>
+                    <FooterItem navigation={navigation} page={FooterPage.QUESTS} isSelected={currentScreen === FooterPage.QUESTS} text="Quests"/>
+                    <FooterItem navigation={navigation} page={FooterPage.TICKETS} isSelected={currentScreen === FooterPage.TICKETS} text="Tickets"/>
+                    <FooterItem navigation={navigation} page={FooterPage.MAP} isSelected={currentScreen === FooterPage.MAP} text="Map"/>
+                    <FooterItem navigation={navigation} page={FooterPage.INFO} isSelected={currentScreen === FooterPage.INFO} text="Info"/>
                 </HStack>
             </View>
         </NativeBaseProvider>

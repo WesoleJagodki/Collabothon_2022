@@ -15,7 +15,20 @@ export const footer_style = StyleSheet.create({
         alignItems: "center"
     },
     picture: {
-        height: 35,
-        width: 35,
+        height: 30,
+        width: 30,
     },
+    text: {
+        fontSize: 13,
+        fontWeight: "bold",
+        color: "#C7986F",
+    },
+    text1: {
+        fontSize: 13,
+        fontWeight: "bold",
+        color: "white",
+    },
+    button: {
+        backgroundColor: "0",
+    }
 });
