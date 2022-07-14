@@ -2,6 +2,7 @@ import React from "react";
 import { Button, Image } from "native-base"
 
 import { footer_style } from "./FooterStyle";
+import {Text} from "react-native";
 
 export enum FooterPage {
     HOME = 1,
@@ -15,6 +16,7 @@ interface Props {
     navigation: any;
     page: FooterPage;
     isSelected: boolean;
+    text: any;
 }
 
 const footerImages = {
@@ -38,14 +40,15 @@ const targets = {
     footer5: "InfoScreen"
 };
 
-export const FooterItem = function ({ navigation, page, isSelected }: Props): JSX.Element {
+export const FooterItem = function ({ navigation, page, isSelected, text }: Props): JSX.Element {
     return (
-        <Button onPress={() => navigation.navigate(targets[`footer${page}`])} style={{backgroundColor: "rgba(0, 0, 0, 0)"}}>
+        <Button onPress={() => navigation.navigate(targets[`footer${page}`])} style={footer_style.button}>
             <Image
                 style={footer_style.picture}
                 source={footerImages[`footer${page}${isSelected ? "selected" : ""}`]}
                 alt="Orientarium ZOO Łódź"
             />
+            <Text style={isSelected ? footer_style.text : footer_style.text1}>{text}</Text>
         </Button>
     );
 };
