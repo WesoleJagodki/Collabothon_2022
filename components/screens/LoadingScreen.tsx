@@ -19,7 +19,7 @@ export const LoadingScreen = function ({navigation} : any): JSX.Element {
                      source={require("../../images/loading-screen-2.png")}
                      alt="Orientarium ZOO Łódź"
                  />
-                 <Button style={loading_screen.button} bg="white" _pressed={{bg: "muted.300"}} onPress={() => navigation.navigate("LoginScreen")}>
+                 <Button style={loading_screen.button} bg="white" _pressed={{bg: "muted.300"}} onPress={() => navigation.navigate("MapScreen")}>
                      <Text style={loading_screen.text}>GET STARTED</Text>
                  </Button>
             </View>
