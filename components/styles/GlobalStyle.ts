@@ -7,4 +7,17 @@ export const global_style = StyleSheet.create({
         justifyContent: "center",
         backgroundColor: "#FFFFFF",
     },
+    input: {
+        flex: 1,
+        backgroundColor: "#F6F6F6",
+        color: "black",
+        width: 300,
+    },
+    icon: {
+        position: "absolute",
+        backgroundColor: "#F6F6F6",
+        color: "darkslategray",
+        top: "25%",
+        right: "5%",
+    }
 });
