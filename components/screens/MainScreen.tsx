@@ -10,7 +10,7 @@ export const MainScreen = function ({navigation} : any): JSX.Element {
     return (
         <NativeBaseProvider>
             <View style={global_style.container}>
-                <Footer />
+                <Footer navigation={navigation} />
             </View>
         </NativeBaseProvider>
     );

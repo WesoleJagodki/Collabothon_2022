@@ -13,12 +13,8 @@ export const footer_style = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center"
     },
-    picture1: {
+    picture: {
         height: 35,
         width: 35,
-    },
-    picture2: {
-        height: 30,
-        width: 30,
     }
 });
