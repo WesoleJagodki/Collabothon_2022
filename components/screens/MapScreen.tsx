@@ -1,6 +1,7 @@
-import { NativeBaseProvider, View, Text } from 'native-base';
+import { NativeBaseProvider} from 'native-base';
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, Image, SafeAreaView, ScrollView, StatusBar, Dimensions } from 'react-native';
+import {SafeAreaView, ScrollView, Dimensions} from 'react-native';
+import {Image} from 'native-base';
 
 import * as Location from 'expo-location';
 import { create, all } from 'mathjs';
@@ -11,9 +12,6 @@ const config = {}
 const math = create(all, config)
 
 const screen_width = Dimensions.get('window').width;
-const screen_height = Dimensions.get('window').height;
-
-const A2 = math.matrix([[51.76363339393569, 19.412120261093946]]);
 
 function to_map_coords(latitude: number, longitude: number) {
     const theta = math.pi * -120 / 180;
@@ -54,7 +52,8 @@ export const MapScreen = function ({ navigation }: any): JSX.Element {
                     >
                         <Image
                             style={map_screen.map}
-                            source={require('../../images/lodz_zoo_map.jpg')}
+                            source={require('../../images/map-screen-2.jpg')}
+                            alt="Orientarium ZOO Łódź"
                         />
                         <Image
                             style={{
@@ -64,7 +63,8 @@ export const MapScreen = function ({ navigation }: any): JSX.Element {
                                 top: y,
                                 left: x
                             }}
-                            source={require('../../images/location.png')}
+                            source={require('../../images/map-screen-1.png')}
+                            alt="Orientarium ZOO Łódź"
                         />
                     </ScrollView>
                 </ScrollView>
