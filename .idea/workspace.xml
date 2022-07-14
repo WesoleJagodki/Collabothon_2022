@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9173394-11e7-4cb4-8ba6-8e9e8f00fbe3" name="Changes" comment="RegistrationScreen is ready">
-      <change afterPath="$PROJECT_DIR$/images/registration-screen-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/registration-screen-2.png" afterDir="false" />
+    <list default="true" id="c9173394-11e7-4cb4-8ba6-8e9e8f00fbe3" name="Changes" comment="Fix keyboard and RegistrationScreen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/screens/RegistrationScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/RegistrationScreen.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/styles/RegistrationScreenStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/styles/RegistrationScreenStyle.ts" afterDir="false" />
@@ -27,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,19 +39,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/sarna/PhpstormProjects/Collabothon_2022/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\sarna\\PhpstormProjects\\Collabothon_2022\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sarna/PhpstormProjects/Collabothon_2022/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\sarna\\PhpstormProjects\\Collabothon_2022\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sarna\PhpstormProjects\Collabothon_2022\images" />
@@ -70,7 +68,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657716093518</updated>
-      <workItem from="1657716095361" duration="23979000" />
+      <workItem from="1657716095361" duration="25404000" />
+      <workItem from="1657781997036" duration="3663000" />
     </task>
     <task id="LOCAL-00001" summary="Add react-base, add new file system, change navigator file">
       <created>1657721380486</created>
@@ -114,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657737325731</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="RegistrationScreen is ready">
+      <created>1657741195584</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657741195584</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +137,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="develop" />
+                        <option value="origin/keyboard" />
                       </list>
                     </value>
                   </entry>
@@ -151,6 +157,7 @@
     <MESSAGE value="LoadingScreen is ready" />
     <MESSAGE value="Add RegistrationScreen" />
     <MESSAGE value="RegistrationScreen is ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="RegistrationScreen is ready" />
+    <MESSAGE value="Fix keyboard and RegistrationScreen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix keyboard and RegistrationScreen" />
   </component>
 </project>
