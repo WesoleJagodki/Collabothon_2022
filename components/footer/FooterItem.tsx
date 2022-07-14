@@ -34,7 +34,7 @@ const footerImages = {
 
 const targets = {
     footer1: "MainScreen",
-    footer2: "AchievementsScreen",
+    footer2: "QuestScreen",
     footer3: "TicketsScreen",
     footer4: "MapScreen",
     footer5: "InfoScreen"
