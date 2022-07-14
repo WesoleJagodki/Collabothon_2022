@@ -42,18 +42,18 @@ export const MapScreen = function ({ navigation }: any): JSX.Element {
 
     return (
         <NativeBaseProvider>
-            <SafeAreaView style={styles.container}>
-                <ScrollView style={styles.scrollView} horizontal={true}>
-                    <ScrollView style={styles.scrollView}
+            <SafeAreaView style={map_screen.container}>
+                <ScrollView style={map_screen.scrollView} horizontal={true}>
+                    <ScrollView style={map_screen.scrollView}
                         horizontal={false}
-                        maximumZoomScale={styles.map.width / screen_width / 2}
-                        minimumZoomScale={styles.map.width / screen_width / 6}
+                        maximumZoomScale={map_screen.map.width / screen_width / 2}
+                        minimumZoomScale={map_screen.map.width / screen_width / 6}
                         zoomScale={1}
                         bouncesZoom={true}
                         contentOffset={{ x: 500, y: 0 }}
                     >
                         <Image
-                            style={styles.map}
+                            style={map_screen.map}
                             source={require('../../images/lodz_zoo_map.jpg')}
                         />
                         <Image
