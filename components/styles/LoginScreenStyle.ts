@@ -49,7 +49,7 @@ export const login_screen = StyleSheet.create({
   },
   text6: {
     fontSize: 13,
-    color: "green",
+    color: "#5E9D75",
     fontWeight: "bold",
   },
 });
