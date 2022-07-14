@@ -20,33 +20,33 @@ export const TicketsScreen = function ({ navigation }: any): JSX.Element {
               goto="LoginScreen"
               text="Tickets"
           >
-              <VStack style={tickets_screen_style.vstack2}>
+              <VStack style={tickets_screen_style.vstack1}>
                   <Image source={require("../../images/header-1.png")} style={tickets_screen_style.picture1}></Image>
               </VStack>
-
           </Header>
-          <VStack style={tickets_screen_style.vstack1}>
-              <HStack style={tickets_screen_style.hstack2}>
-                  <VStack>
+
+          <View>
+              <View style={tickets_screen_style.view1}>
+                  <View>
                       <Image style={tickets_screen_style.picture2} source={require("../../images/tickets-screen-1.png")} />
                       <Text>wifnwiwowfno</Text>
-                  </VStack>
-                  <VStack>
+                  </View>
+                  <View>
                       <Image style={tickets_screen_style.picture2} source={require("../../images/tickets-screen-2.png")} />
                       <Text>wofnwoifwanfiwoanfiwainf</Text>
-                  </VStack>
-              </HStack>
-              <HStack style={tickets_screen_style.hstack2}>
-                  <VStack>
+                  </View>
+              </View>
+              <View style={tickets_screen_style.view1}>
+                  <View>
                       <Image style={tickets_screen_style.picture2} source={require("../../images/tickets-screen-3.png")} />
                       <Text>opfnwepifnif</Text>
-                  </VStack>
-                  <VStack>
+                  </View>
+                  <View>
                       <Image style={tickets_screen_style.picture2} source={require("../../images/tickets-screen-4.png")} />
                       <Text>wfnwoifwnf</Text>
-                  </VStack>
-              </HStack>
-          </VStack>
+                  </View>
+              </View>
+          </View>
 
 
         <Footer navigation={navigation} currentScreen={FooterPage.TICKETS} />
