@@ -16,19 +16,18 @@ export const tickets_screen_style = StyleSheet.create({
     },
     hstack1: {
         alignSelf: "flex-start",
-        backgroundColor: "red",
+        // backgroundColor: "red",
         width: "100%",
         padding: "10%"
     },
     hstack2: {
-        backgroundColor: "purple",
+        // backgroundColor: "purple",
         justifyContent: "space-between",
         width: "100%",
         padding: "10%"
     },
     vstack1: {
-        flex: 5,
-        backgroundColor: "green",
+        // backgroundColor: "green",
         width: "100%"
     },
     vstack2: {
