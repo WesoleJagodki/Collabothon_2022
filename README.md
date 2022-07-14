@@ -28,4 +28,7 @@ Project is created with:
 # UI Figma - app prototype: 
 	https://www.figma.com/file/ImepfofEmGIGIiWEH72H3R/Collabathon-Weso%C5%82e-Jag%C3%B3dki
 
+# Trello
+	https://trello.com/b/7ppU6ulm/collabothon-2022-weso%C5%82e-jag%C3%B3dki
+
 # Sources
