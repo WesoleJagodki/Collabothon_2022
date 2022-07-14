@@ -49,7 +49,7 @@ export const RegistrationScreen = function ({ navigation }: any): JSX.Element {
       PIN,
     });
     if (result) {
-      navigation.navigate("LoginScreen");
+      navigation.navigate("MainScreen");
     } else {
       setInvalidUsername(true);
     }
