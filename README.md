@@ -23,7 +23,7 @@ Project is created with:
 * Python 3.9 & 3.10  
 * Pytarch  
 * TypeScript React  
-
+* Django  
 
 # UI Figma - app prototype: 
 	https://www.figma.com/file/ImepfofEmGIGIiWEH72H3R/Collabathon-Weso%C5%82e-Jag%C3%B3dki?node-id=0%3A1
@@ -35,4 +35,6 @@ Project is created with:
 	<a href="https://www.flaticon.com/free-icons/info" title="info icons">Info icons created by Freepik - Flaticon</a>  
 	<a href='https://www.freepik.com/vectors/animal-clipart'>Animal clipart vector created by brgfx - www.freepik.com</a>  
 	<a href='https://www.freepik.com/vectors/small-girl'>Small girl vector created by brgfx - www.freepik.com</a>  
+	https://orientarium.lodz.pl/  
+	https://www.iucnredlist.org/  
 
