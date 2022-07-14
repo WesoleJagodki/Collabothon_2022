@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c9173394-11e7-4cb4-8ba6-8e9e8f00fbe3" name="Changes" comment="Add header">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/TicketsScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/TicketsScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/styles/TicketsScreenStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/styles/TicketsScreenStyle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigator/RootNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/navigator/RootNavigator.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="keyboard" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BtCebnie4feRpmUe1XaedJnNCz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Damian/Documents/ORIENTARIUM/MAIN",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Damian\\Documents\\ORIENTARIUM\\MAIN\\node_modules\\prettier",
+    "ts.external.directory.path": "C:\\Users\\Damian\\Documents\\ORIENTARIUM\\MAIN\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sarna\PhpstormProjects\Collabothon_2022\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sarna\PhpstormProjects\Collabothon_2022\assets\fonts" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9173394-11e7-4cb4-8ba6-8e9e8f00fbe3" name="Changes" comment="" />
+      <created>1657716093518</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657716093518</updated>
+      <workItem from="1657716095361" duration="25404000" />
+      <workItem from="1657781997036" duration="24508000" />
+      <workItem from="1657815586833" duration="12383000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add react-base, add new file system, change navigator file">
+      <created>1657721380486</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657721380486</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add LoadingScreen without opacity">
+      <created>1657727463359</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657727463359</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix LoadingScreen, add white opacity">
+      <created>1657729904804</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657729904804</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix opacity">
+      <created>1657730335177</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657730335177</updated>
+    </task>
+    <task id="LOCAL-00005" summary="LoadingScreen is ready">
+      <created>1657731118267</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657731118267</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add RegistrationScreen">
+      <created>1657737325731</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657737325731</updated>
+    </task>
+    <task id="LOCAL-00007" summary="RegistrationScreen is ready">
+      <created>1657741195584</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657741195584</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fix keyboard and RegistrationScreen">
+      <created>1657785702123</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657785702123</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix RegistrationScreen (password and checkbox)">
+      <created>1657787557112</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657787557112</updated>
+    </task>
+    <task id="LOCAL-00010" summary="LoginScreen is ready">
+      <created>1657793549673</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657793549673</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add Footer">
+      <created>1657797705475</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657797705475</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add Footer">
+      <created>1657797834181</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657797834181</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Footer is ready">
+      <created>1657802590030</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1657802590030</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Footer is ready">
+      <created>1657805618664</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657805618664</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add others screen (quest, tickets, info)">
+      <created>1657806651142</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1657806651142</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Fix colors">
+      <created>1657807707461</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1657807707461</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add react-base, add new file system, change navigator file" />
+    <MESSAGE value="Add LoadingScreen without opacity" />
+    <MESSAGE value="Fix LoadingScreen, add white opacity" />
+    <MESSAGE value="Fix opacity" />
+    <MESSAGE value="LoadingScreen is ready" />
+    <MESSAGE value="Add RegistrationScreen" />
+    <MESSAGE value="RegistrationScreen is ready" />
+    <MESSAGE value="Fix keyboard and RegistrationScreen" />
+    <MESSAGE value="Fix RegistrationScreen (password and checkbox)" />
+    <MESSAGE value="LoginScreen is ready" />
+    <MESSAGE value="Add Footer" />
+    <MESSAGE value="Footer is ready" />
+    <MESSAGE value="Add others screen (quest, tickets, info)" />
+    <MESSAGE value="Fix colors" />
+    <MESSAGE value="Add header" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add header" />
+  </component>
+</project>
