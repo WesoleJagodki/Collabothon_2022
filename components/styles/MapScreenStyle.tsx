@@ -3,9 +3,9 @@ import { StyleSheet, StatusBar } from 'react-native';
 export const map_screen = StyleSheet.create({
     container: {
         flex: 1,
-        paddingTop: StatusBar.currentHeight,
     },
     scrollView: {
+        flex: 1
     },
     text: {
     },

@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9173394-11e7-4cb4-8ba6-8e9e8f00fbe3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/screens/LoginScreen.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/styles/LoginScreenStyle.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/login-screen-1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/RegistrationScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/RegistrationScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/styles/GlobalStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/styles/GlobalStyle.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/styles/RegistrationScreenStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/styles/RegistrationScreenStyle.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigator/RootNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/navigator/RootNavigator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/FooterStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/FooterStyle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -74,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657716093518</updated>
       <workItem from="1657716095361" duration="25404000" />
-      <workItem from="1657781997036" duration="11368000" />
+      <workItem from="1657781997036" duration="18603000" />
     </task>
     <task id="LOCAL-00001" summary="Add react-base, add new file system, change navigator file">
       <created>1657721380486</created>
@@ -139,7 +135,28 @@
       <option name="project" value="LOCAL" />
       <updated>1657787557112</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="LoginScreen is ready">
+      <created>1657793549673</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657793549673</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add Footer">
+      <created>1657797705475</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657797705475</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add Footer">
+      <created>1657797834181</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657797834181</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +195,8 @@
     <MESSAGE value="RegistrationScreen is ready" />
     <MESSAGE value="Fix keyboard and RegistrationScreen" />
     <MESSAGE value="Fix RegistrationScreen (password and checkbox)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix RegistrationScreen (password and checkbox)" />
+    <MESSAGE value="LoginScreen is ready" />
+    <MESSAGE value="Add Footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Footer" />
   </component>
 </project>

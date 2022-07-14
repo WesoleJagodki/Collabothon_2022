@@ -6,6 +6,9 @@ import * as Location from 'expo-location';
 import { create, all, Matrix } from 'mathjs';
 
 import { map_screen } from '../styles/MapScreenStyle'
+import { global_style } from '../styles/GlobalStyle';
+import { Footer } from '../footer/Footer';
+import { FooterPage } from '../footer/FooterItem';
 
 const config = {}
 const math = create(all, config)
@@ -31,12 +34,10 @@ const R_map_to_global = math.matrix([[math.cos(theta), math.sin(theta)], [-math.
 function to_map_coords(latitude: number, longitude: number) {
     const p = math.matrix([[longitude, latitude]]);
     const p_map = math.subtract(p, A2);
-    
+
     // @ts-ignore
     const p_px_map = math.matrix([[p_map.get([0, 0]) * (w_px/w), p_map.get([0, 1]) * (w_px/w)]]);
     const transformed = math.multiply(p_px_map, math.inv(R_map_to_global));
-
-    console.log(p_px_map);
 
     return { x: Math.round(transformed.get([0, 0])), y: Math.round(transformed.get([0, 1])) }
 }
@@ -71,21 +72,14 @@ export const MapScreen = function ({ navigation }: any): JSX.Element {
                     >
                         <Image
                             style={map_screen.map}
-                            source={require('../../images/lodz_zoo_map.jpg')}
+                            source={require('../../images/map-screen-2.jpg')}
                         />
-                        {/* <Image
-                            style={{
-                                width: 50,
-                                height: 50,
-                                position: "absolute",
-                                marginTop: y,
-                                marginLeft: x
-                            }}
-                            source={require('../../images/location.png')}
-                        /> */}
                     </ScrollView>
                 </ScrollView>
             </SafeAreaView>
+            <View style={global_style.container}>
+                <Footer navigation={navigation} currentScreen={FooterPage.MAP} />
+            </View>
         </NativeBaseProvider>
     );
 };

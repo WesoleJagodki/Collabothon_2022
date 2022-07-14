@@ -25,10 +25,10 @@ export const LoginScreen = function ({navigation} : any): JSX.Element {
                     <VStack style={login_screen.vstack2} space={4} alignItems="center">
                         <View>
                             <Input variant="rounded" borderRadius="10" shadow={4} minH="4%" minW="85%" marginBottom={4} style={global_style.input} placeholder="Username" value={Username} onChangeText={handleChangeUsername}/>
-                            <Input variant="rounded" borderRadius="10" minH="4%" shadow={4} minW="85%" style={global_style.input} type={show ? "text" : "password"} InputRightElement={<Icon as={<MaterialIcons style={global_style.icon}  size={20} name={show ? "visibility" : "visibility-off"} />} onPress={() => setShow(!show)} />} placeholder="Password" value={Password} onChangeText={handleChangePassword}/>
+                            <Input variant="rounded" borderRadius="10" minH="4%" shadow={4} minW="85%" style={global_style.input} type={show ? "text" : "password"} InputRightElement={<Icon as={<MaterialIcons style={global_style.icon} size={20} name={show ? "visibility" : "visibility-off"} />} onPress={() => setShow(!show)} />} placeholder="Password" value={Password} onChangeText={handleChangePassword}/>
                         </View>
                         <Text style={login_screen.text3}>Recovery Password</Text>
-                        <Button style={login_screen.button} colorScheme={"green"} onPress={() => navigation.navigate("LoginScreen")}>
+                        <Button style={login_screen.button} colorScheme={"green"} onPress={() => navigation.navigate("MainScreen")}>
                             <Text style={login_screen.text4}>Log in</Text>
                         </Button>
                         <Image
