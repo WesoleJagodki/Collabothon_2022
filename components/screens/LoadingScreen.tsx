@@ -23,7 +23,7 @@ export const LoadingScreen = function ({ navigation }: any): JSX.Element {
           style={loading_screen.button}
           bg="white"
           _pressed={{ bg: "muted.300" }}
-          onPress={() => navigation.navigate("RegistrationScreen")}
+          onPress={() => navigation.navigate("MainScreen")}
         >
           <Text style={loading_screen.text}>GET STARTED</Text>
         </Button>
