@@ -28,7 +28,7 @@ export const LoginScreen = function ({navigation} : any): JSX.Element {
                             <Input variant="rounded" borderRadius="10" minH="4%" shadow={4} minW="85%" style={global_style.input} type={show ? "text" : "password"} InputRightElement={<Icon as={<MaterialIcons style={global_style.icon} size={20} name={show ? "visibility" : "visibility-off"} />} onPress={() => setShow(!show)} />} placeholder="Password" value={Password} onChangeText={handleChangePassword}/>
                         </View>
                         <Text style={login_screen.text3}>Recovery Password</Text>
-                        <Button style={login_screen.button} colorScheme={"green"} onPress={() => navigation.navigate("MainScreen")}>
+                        <Button style={login_screen.button} bg="#5E9D75" colorScheme={"green"} onPress={() => navigation.navigate("MainScreen")}>
                             <Text style={login_screen.text4}>Log in</Text>
                         </Button>
                         <Image

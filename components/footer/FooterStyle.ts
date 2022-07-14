@@ -12,7 +12,7 @@ export const footer_style = StyleSheet.create({
         height: 0.07*screen_height,
         width: screen_width,
         justifyContent: "center",
-        alignItems: "center"
+        paddingLeft: "4%"
     },
     picture: {
         height: 30,
