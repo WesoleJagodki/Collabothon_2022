@@ -7,7 +7,7 @@ export const ticket_popup_style = StyleSheet.create({
       alignItems: "center",
     },
     modalView: {
-      flex: 0.28,
+      flex: 0.24,
       margin: 20,
       backgroundColor: "#F5F5F5",
       borderRadius: 20,
@@ -25,14 +25,16 @@ export const ticket_popup_style = StyleSheet.create({
       flex: 1,
       marginTop: 10,
       alignContent: 'center',
+      justifyContent: "center",
       borderStyle: "solid",
       borderColor: "#C3C3C3",
       borderWidth: 1,
       backgroundColor: "#F5F5F5",
+      borderRadius: 5
     },
     textStyle: {
       textAlign: "center",
-      flex: 1,
+
     },
     modalText: {
       marginBottom: 15,
