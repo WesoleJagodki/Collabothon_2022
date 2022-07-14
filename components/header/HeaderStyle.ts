@@ -5,8 +5,8 @@ const screen_height = Dimensions.get("window").height;
 export const header_style = StyleSheet.create({
   container: {
     // position: "absolute",
-    flex: 1,
-    // top: 0,
+    // flex: 1,
+    top: 0,
     // left: -0.5 * screen_width,
     height: 50,
     borderBottomColor: "rgba(0, 0, 0, 0.1)",
