@@ -16,7 +16,7 @@ export const global_style = StyleSheet.create({
     icon: {
         position: "absolute",
         backgroundColor: "#F6F6F6",
-        color: "darkslategray",
+        color: "gray",
         top: "25%",
         right: "5%",
     }

@@ -28,6 +28,9 @@ Project is created with:
 # UI Figma - app prototype: 
 	https://www.figma.com/file/ImepfofEmGIGIiWEH72H3R/Collabathon-Weso%C5%82e-Jag%C3%B3dki?node-id=0%3A1
 
+# Trello
+	https://trello.com/b/7ppU6ulm/collabothon-2022-weso%C5%82e-jag%C3%B3dki
+
 # Sources
 	<a href='https://www.freepik.com/vectors/hyena'>Hyena vector created by brgfx - www.freepik.com</a>  
 	<a href='https://www.freepik.com/vectors/animal-clipart'>Animal clipart vector created by brgfx - www.freepik.com</a>  
