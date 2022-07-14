@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9173394-11e7-4cb4-8ba6-8e9e8f00fbe3" name="Changes" comment="Add header">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/header/HeaderStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/HeaderStyle.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/TicketsScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/TicketsScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/styles/TicketsScreenStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/styles/TicketsScreenStyle.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/shopping-cart 1.png" beforeDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,25 +36,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Damian/Documents/ORIENTARIUM/MAIN&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Damian\\Documents\\ORIENTARIUM\\MAIN\\node_modules\\prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Damian\\Documents\\ORIENTARIUM\\MAIN\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
+
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sarna\PhpstormProjects\Collabothon_2022\components\styles" />
       <recent name="C:\Users\sarna\PhpstormProjects\Collabothon_2022\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sarna\PhpstormProjects\Collabothon_2022\images" />
       <recent name="C:\Users\sarna\PhpstormProjects\Collabothon_2022\assets\fonts" />
     </key>
   </component>
@@ -72,9 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657716093518</updated>
       <workItem from="1657716095361" duration="25404000" />
-      <workItem from="1657781997036" duration="24508000" />
-      <workItem from="1657815586833" duration="12383000" />
-      <workItem from="1657829644036" duration="3199000" />
+
     </task>
     <task id="LOCAL-00001" summary="Add react-base, add new file system, change navigator file">
       <created>1657721380486</created>
@@ -188,7 +171,7 @@
       <option name="project" value="LOCAL" />
       <updated>1657807707461</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +216,6 @@
     <MESSAGE value="Add others screen (quest, tickets, info)" />
     <MESSAGE value="Fix colors" />
     <MESSAGE value="Add header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add header" />
+
   </component>
 </project>
