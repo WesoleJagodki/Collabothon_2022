@@ -3,13 +3,13 @@
 The application was prepared in 48 hours as part of the hackathon (Collabothon 2022): https://www.collabothon.eu/#
 
 Wesołe Jagódki Team:  
-	• Natalia Krzyżaniak  
-	• Julia Dominiak  
-	• Krzysztof Adamkiewicz  
-	• Adam Brząkała  
-	• Damian Szczepański  
-	• Mateusz Papuga  
-	• Piotr Sarna  
+* Natalia Krzyżaniak  
+* Julia Dominiak  
+* Krzysztof Adamkiewicz  
+* Adam Brząkała  
+* Damian Szczepański  
+* Mateusz Papuga  
+* Piotr Sarna  
 
 Our Challenge (ZOO)
 	The earth is home to countless species and we all should envision a world where wildlife and humans flourish together. 
