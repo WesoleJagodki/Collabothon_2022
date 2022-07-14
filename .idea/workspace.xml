@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9173394-11e7-4cb4-8ba6-8e9e8f00fbe3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/images/quest-screen-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/quest-screen-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/quest-screen-3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/header/HeaderStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/HeaderStyle.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/MainScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/MainScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/MapScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/MapScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/QuestScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/QuestScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/info/InfoScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/info/InfoScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/styles/QuestScreenStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/styles/QuestScreenStyle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,24 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sarna/PhpstormProjects/Collabothon_2022/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\sarna\\PhpstormProjects\\Collabothon_2022\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/sarna/PhpstormProjects/Collabothon_2022/components/styles",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\sarna\\PhpstormProjects\\Collabothon_2022\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sarna\PhpstormProjects\Collabothon_2022\components\styles" />
       <recent name="C:\Users\sarna\PhpstormProjects\Collabothon_2022\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sarna\PhpstormProjects\Collabothon_2022\images" />
       <recent name="C:\Users\sarna\PhpstormProjects\Collabothon_2022\assets\fonts" />
     </key>
   </component>
@@ -70,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657716093518</updated>
       <workItem from="1657716095361" duration="25404000" />
-      <workItem from="1657781997036" duration="33699000" />
+      <workItem from="1657781997036" duration="41032000" />
     </task>
     <task id="LOCAL-00001" summary="Add react-base, add new file system, change navigator file">
       <created>1657721380486</created>
@@ -198,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657815990810</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Header is ready">
+      <created>1657819434735</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1657819434735</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +230,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="develop_2" />
+                        <option value="develop" />
                       </list>
                     </value>
                   </entry>
@@ -244,17 +259,7 @@
     <MESSAGE value="Fix colors" />
     <MESSAGE value="Add header" />
     <MESSAGE value="Problem with navigator (header)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem with navigator (header)" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/App.tsx</url>
-          <line>6</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Header is ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Header is ready" />
   </component>
 </project>
