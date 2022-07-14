@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9173394-11e7-4cb4-8ba6-8e9e8f00fbe3" name="Changes" comment="Fix keyboard and RegistrationScreen">
+    <list default="true" id="c9173394-11e7-4cb4-8ba6-8e9e8f00fbe3" name="Changes" comment="Fix RegistrationScreen (password and checkbox)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/PicturePickerScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/PicturePickerScreen.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/screens/RegistrationScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/RegistrationScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/styles/RegistrationScreenStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/styles/RegistrationScreenStyle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigator/RootNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/navigator/RootNavigator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="keyboard" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657716093518</updated>
       <workItem from="1657716095361" duration="25404000" />
-      <workItem from="1657781997036" duration="3663000" />
+      <workItem from="1657781997036" duration="5498000" />
     </task>
     <task id="LOCAL-00001" summary="Add react-base, add new file system, change navigator file">
       <created>1657721380486</created>
@@ -120,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657741195584</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fix keyboard and RegistrationScreen">
+      <created>1657785702123</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657785702123</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +147,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/keyboard" />
+                        <option value="develop" />
                       </list>
                     </value>
                   </entry>
@@ -158,6 +168,7 @@
     <MESSAGE value="Add RegistrationScreen" />
     <MESSAGE value="RegistrationScreen is ready" />
     <MESSAGE value="Fix keyboard and RegistrationScreen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix keyboard and RegistrationScreen" />
+    <MESSAGE value="Fix RegistrationScreen (password and checkbox)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix RegistrationScreen (password and checkbox)" />
   </component>
 </project>

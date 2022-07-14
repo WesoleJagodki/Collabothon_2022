@@ -21,6 +21,7 @@ export const RegistrationScreen = function ({navigation} : any): JSX.Element {
     const handleChangeGender = text => setGender(text);
     const handleChangePIN = text => setPIN(text);
 
+    const [show, setShow] = React.useState(false);
     const [checkboxValues, setCheckboxValues] = React.useState([]);
 
     return (
@@ -33,13 +34,15 @@ export const RegistrationScreen = function ({navigation} : any): JSX.Element {
                     <VStack style={registration_screen.vstack2} space={4} alignItems="center">
                         <Input variant="rounded" borderRadius="10" shadow={4} minH="4%" style={registration_screen.input} placeholder="Username" value={Username} onChangeText={handleChangeUsername}/>
                         <Input variant="rounded" borderRadius="10" shadow={4} minH="4%" style={registration_screen.input} placeholder="Email" value={Email} onChangeText={handleChangeEmail}/>
-                        <Input variant="rounded" borderRadius="10" shadow={4} minH="4%" style={registration_screen.input} placeholder="Password" value={Password} onChangeText={handleChangePassword}/>
+                        <Input type={show ? "text" : "password"} variant="rounded" borderRadius="10" shadow={4} minH="4%" style={registration_screen.input} placeholder="Password" value={Password} onChangeText={handleChangePassword}/>
                         <Input variant="rounded" borderRadius="10" shadow={4} minH="4%" style={registration_screen.input} placeholder="Birth Day" value={BirthDay} onChangeText={handleChangeBirthDay}/>
                         <Input variant="rounded" borderRadius="10" shadow={4} minH="4%" style={registration_screen.input} placeholder="Gender" value={Gender} onChangeText={handleChangeGender}/>
                         <Input variant="rounded" borderRadius="10" shadow={4} minH="4%" style={registration_screen.input} placeholder="PIN" value={PIN} onChangeText={handleChangePIN}/>
-                        <Checkbox shadow={4} onChange={setCheckboxValues} value={checkboxValues} accessibilityLabel="I agree to the Terms of Service and Privacy Policy">
-                            <Text style={registration_screen.text3}>I agree to the Terms of Service and Privacy Policy</Text>
-                        </Checkbox>
+                        <Checkbox.Group onChange={setCheckboxValues} value={checkboxValues}>
+                            <Checkbox shadow={4} value="accept" accessibilityLabel="I agree to the Terms of Service and Privacy Policy">
+                                <Text style={registration_screen.text3}>I agree to the Terms of Service and Privacy Policy</Text>
+                            </Checkbox>
+                        </Checkbox.Group>
                         <Button style={registration_screen.button} colorScheme={"green"}>
                             <Text style={registration_screen.text4}>Sign up</Text>
                         </Button>

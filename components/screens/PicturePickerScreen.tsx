@@ -1,12 +1,10 @@
-import { View } from '../components/Themed';
-import { useState } from 'react';
-import React from 'react';
+import React from "react";
+import {View, Button, Image} from "react-native";
 
-import { Button, Image } from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
 
-export default function PicturePickerScreen() {
-  const [image, setImage] = useState<null | string>(null);
+export const PicturePickerScreen = function (): JSX.Element {
+  const [image, setImage] = React.useState<null | string>(null);
 
   const pickImage = async () => {
     let result = await ImagePicker.launchCameraAsync({
