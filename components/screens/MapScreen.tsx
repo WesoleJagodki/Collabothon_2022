@@ -13,6 +13,9 @@ import * as Location from "expo-location";
 import { create, all, Matrix } from "mathjs";
 
 import { map_screen } from "../styles/MapScreenStyle";
+import { global_style } from "../styles/GlobalStyle";
+import { Footer } from "../footer/Footer";
+import { FooterPage } from "../footer/FooterItem";
 
 const config = {};
 const math = create(all, config);
@@ -48,8 +51,6 @@ function to_map_coords(latitude: number, longitude: number) {
   ]);
   const transformed = math.multiply(p_px_map, math.inv(R_map_to_global));
 
-  console.log(p_px_map);
-
   return {
     x: Math.round(transformed.get([0, 0])),
     y: Math.round(transformed.get([0, 1])),
@@ -79,35 +80,26 @@ export const MapScreen = function ({ navigation }: any): JSX.Element {
 
   return (
     <NativeBaseProvider>
-      <SafeAreaView style={map_screen.container}>
+      <SafeAreaView style={global_style.container}>
         <ScrollView style={map_screen.scrollView} horizontal={true}>
           <ScrollView
             style={map_screen.scrollView}
             horizontal={false}
             maximumZoomScale={map_screen.map.width / screen_width / 2}
-            minimumZoomScale={map_screen.map.width / screen_width / 6}
-            zoomScale={1}
+            minimumZoomScale={map_screen.map.width / screen_width / 8}
+            zoomScale={0.5}
             bouncesZoom={true}
           >
             <Image
               style={map_screen.map}
               source={require("../../images/map-screen-2.jpg")}
-              alt="Orientarium ZOO Łódź"
             />
-            {/* <Image
-                            style={{
-                                width: 50,
-                                height: 50,
-                                position: "absolute",
-                                marginTop: y,
-                                marginLeft: x
-                            }}
-                            source={require('../../images/map-screen-1.png')}
-                            alt="Orientarium ZOO Łódź"
-                        /> */}
           </ScrollView>
         </ScrollView>
       </SafeAreaView>
+      <View style={global_style.container}>
+        <Footer navigation={navigation} currentScreen={FooterPage.MAP} />
+      </View>
     </NativeBaseProvider>
   );
 };

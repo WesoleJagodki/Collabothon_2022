@@ -3,36 +3,50 @@ import { View } from "react-native";
 import { NativeBaseProvider, Image, HStack } from "native-base";
 
 import { footer_style } from "./FooterStyle";
+import { FooterItem, FooterPage } from "./FooterItem";
 
-export const Footer = function ({ navigation }: any): JSX.Element {
+interface Props {
+  navigation: any;
+  currentScreen: FooterPage;
+}
+
+export const Footer = function ({
+  navigation,
+  currentScreen,
+}: Props): JSX.Element {
   return (
     <NativeBaseProvider>
       <View style={footer_style.container}>
-        <HStack space={10}>
-          <Image
-            style={footer_style.picture1}
-            source={require("../../images/footer-1.png")}
-            alt="Orientarium ZOO Łódź"
+        <HStack space={4}>
+          <FooterItem
+            navigation={navigation}
+            page={FooterPage.HOME}
+            isSelected={currentScreen === FooterPage.HOME}
+            text="Home"
           />
-          <Image
-            style={footer_style.picture1}
-            source={require("../../images/footer-2.png")}
-            alt="Orientarium ZOO Łódź"
+          <FooterItem
+            navigation={navigation}
+            page={FooterPage.QUESTS}
+            isSelected={currentScreen === FooterPage.QUESTS}
+            text="Quests"
           />
-          <Image
-            style={footer_style.picture1}
-            source={require("../../images/footer-3.png")}
-            alt="Orientarium ZOO Łódź"
+          <FooterItem
+            navigation={navigation}
+            page={FooterPage.TICKETS}
+            isSelected={currentScreen === FooterPage.TICKETS}
+            text="Tickets"
           />
-          <Image
-            style={footer_style.picture1}
-            source={require("../../images/footer-4.png")}
-            alt="Orientarium ZOO Łódź"
+          <FooterItem
+            navigation={navigation}
+            page={FooterPage.MAP}
+            isSelected={currentScreen === FooterPage.MAP}
+            text="Map"
           />
-          <Image
-            style={footer_style.picture2}
-            source={require("../../images/footer-5.png")}
-            alt="Orientarium ZOO Łódź"
+          <FooterItem
+            navigation={navigation}
+            page={FooterPage.INFO}
+            isSelected={currentScreen === FooterPage.INFO}
+            text="Info"
           />
         </HStack>
       </View>

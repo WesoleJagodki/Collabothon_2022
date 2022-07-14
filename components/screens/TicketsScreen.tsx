@@ -7,11 +7,11 @@ import { global_style } from "../styles/GlobalStyle";
 import { Footer } from "../footer/Footer";
 import { FooterPage } from "../footer/FooterItem";
 
-export const MainScreen = function ({ navigation }: any): JSX.Element {
+export const TicketsScreen = function ({ navigation }: any): JSX.Element {
   return (
     <NativeBaseProvider>
       <View style={global_style.container}>
-        <Footer navigation={navigation} currentScreen={FooterPage.HOME} />
+        <Footer navigation={navigation} currentScreen={FooterPage.TICKETS} />
       </View>
     </NativeBaseProvider>
   );

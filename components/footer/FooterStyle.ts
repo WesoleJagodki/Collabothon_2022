@@ -1,5 +1,6 @@
 import { Dimensions, StyleSheet } from "react-native";
 const screen_width = Dimensions.get("window").width;
+const screen_height = Dimensions.get("window").height;
 
 export const footer_style = StyleSheet.create({
   container: {
@@ -8,17 +9,26 @@ export const footer_style = StyleSheet.create({
     backgroundColor: "#5E9D75",
     bottom: 0,
     left: -0.5 * screen_width,
-    height: "7%",
+    height: 0.07 * screen_height,
     width: screen_width,
     justifyContent: "center",
     alignItems: "center",
   },
-  picture1: {
-    height: 35,
-    width: 35,
-  },
-  picture2: {
+  picture: {
     height: 30,
     width: 30,
+  },
+  text: {
+    fontSize: 13,
+    fontWeight: "bold",
+    color: "#C7986F",
+  },
+  text1: {
+    fontSize: 13,
+    fontWeight: "bold",
+    color: "white",
+  },
+  button: {
+    backgroundColor: "0",
   },
 });

@@ -3,13 +3,13 @@ import { StyleSheet, StatusBar } from "react-native";
 export const map_screen = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: StatusBar.currentHeight,
   },
   scrollView: {},
   text: {},
   map: {
-    width: 3840 / 2,
-    height: 2060 / 2,
+    marginBottom: 500,
+    width: 7680 / 4,
+    height: 5468 / 4,
   },
   location: {},
 });
