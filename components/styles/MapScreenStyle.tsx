@@ -5,13 +5,13 @@ export const map_screen = StyleSheet.create({
         flex: 1,
     },
     scrollView: {
-        flex: 1
     },
     text: {
     },
     map: {
-        width: 3840 / 2,
-        height: 2060 / 2
+        marginBottom: 500,
+        width: 7680 / 4,
+        height: 5468 / 4,
     },
     location: {
 
