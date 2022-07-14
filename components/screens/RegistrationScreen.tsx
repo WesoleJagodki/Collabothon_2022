@@ -40,11 +40,11 @@ export const RegistrationScreen = function ({navigation} : any): JSX.Element {
                         <Input variant="rounded" borderRadius="10" shadow={4} minH="4%" style={global_style.input} placeholder="Gender" value={Gender} onChangeText={handleChangeGender}/>
                         <Input variant="rounded" borderRadius="10" shadow={4} minH="4%" style={global_style.input} placeholder="PIN" value={PIN} onChangeText={handleChangePIN}/>
                         <Checkbox.Group onChange={setCheckboxValues} value={checkboxValues}>
-                            <Checkbox colorScheme={"green"} shadow={4} value="accept" accessibilityLabel="I agree to the Terms of Service and Privacy Policy">
+                            <Checkbox  colorScheme={"green"} shadow={4} value="accept" accessibilityLabel="I agree to the Terms of Service and Privacy Policy">
                                 <Text style={registration_screen.text3}>I agree to the Terms of Service and Privacy Policy</Text>
                             </Checkbox>
                         </Checkbox.Group>
-                        <Button style={registration_screen.button} colorScheme={"green"} onPress={() => navigation.navigate("LoginScreen")}>
+                        <Button style={registration_screen.button} bg="#5E9D75" colorScheme={"green"} onPress={() => navigation.navigate("LoginScreen")}>
                             <Text style={registration_screen.text4}>Sign up</Text>
                         </Button>
                         <Image

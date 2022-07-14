@@ -25,7 +25,7 @@ export const RootNavigator = function () : JSX.Element {
             <Stack.Screen name="TicketsScreen" component={TicketsScreen} options={{title: "TicketsScreen"}}/>
             <Stack.Screen name="MapScreen" component={MapScreen} options={{title: "MapScreen"}}/>
             <Stack.Screen name="InfoScreen" component={InfoScreen} options={{title: "InfoScreen"}}/>
-            
+
             <Stack.Screen name="PicturePickerScreen" component={PicturePickerScreen} options={{title: "PicturePickerScreen"}}/>
         </Stack.Navigator>
     );

@@ -1,6 +1,6 @@
 import React from "react";
 import {View} from "react-native";
-import {NativeBaseProvider, Image, HStack} from "native-base"
+import {NativeBaseProvider, HStack} from "native-base"
 
 import {footer_style} from "./FooterStyle";
 import { FooterItem, FooterPage } from "./FooterItem";
@@ -14,7 +14,7 @@ export const Footer = function ({navigation, currentScreen} : Props): JSX.Elemen
     return (
         <NativeBaseProvider>
             <View style={footer_style.container}>
-                <HStack space={4}>
+                <HStack space={4} alignContent="center">
                     <FooterItem navigation={navigation} page={FooterPage.HOME} isSelected={currentScreen === FooterPage.HOME} text="Home"/>
                     <FooterItem navigation={navigation} page={FooterPage.QUESTS} isSelected={currentScreen === FooterPage.QUESTS} text="Quests"/>
                     <FooterItem navigation={navigation} page={FooterPage.TICKETS} isSelected={currentScreen === FooterPage.TICKETS} text="Tickets"/>
