@@ -31,7 +31,7 @@ const R_map_to_global = math.matrix([[math.cos(theta), math.sin(theta)], [-math.
 function to_map_coords(latitude: number, longitude: number) {
     const p = math.matrix([[longitude, latitude]]);
     const p_map = math.subtract(p, A2);
-    
+
     // @ts-ignore
     const p_px_map = math.matrix([[p_map.get([0, 0]) * (w_px/w), p_map.get([0, 1]) * (w_px/w)]]);
     const transformed = math.multiply(p_px_map, math.inv(R_map_to_global));
@@ -71,7 +71,8 @@ export const MapScreen = function ({ navigation }: any): JSX.Element {
                     >
                         <Image
                             style={map_screen.map}
-                            source={require('../../images/lodz_zoo_map.jpg')}
+                            source={require('../../images/map-screen-2.jpg')}
+                            alt="Orientarium ZOO Łódź"
                         />
                         {/* <Image
                             style={{
@@ -81,7 +82,8 @@ export const MapScreen = function ({ navigation }: any): JSX.Element {
                                 marginTop: y,
                                 marginLeft: x
                             }}
-                            source={require('../../images/location.png')}
+                            source={require('../../images/map-screen-1.png')}
+                            alt="Orientarium ZOO Łódź"
                         /> */}
                     </ScrollView>
                 </ScrollView>
