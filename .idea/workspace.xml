@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9173394-11e7-4cb4-8ba6-8e9e8f00fbe3" name="Changes" comment="Add header">
-      <change afterPath="$PROJECT_DIR$/components/header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/header/HeaderStyle.ts" afterDir="false" />
+    <list default="true" id="c9173394-11e7-4cb4-8ba6-8e9e8f00fbe3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/footer/FooterStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/FooterStyle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header/HeaderStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/HeaderStyle.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/screens/MainScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/MainScreen.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="keyboard" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657716093518</updated>
       <workItem from="1657716095361" duration="25404000" />
-      <workItem from="1657781997036" duration="24508000" />
+      <workItem from="1657781997036" duration="33699000" />
     </task>
     <task id="LOCAL-00001" summary="Add react-base, add new file system, change navigator file">
       <created>1657721380486</created>
@@ -185,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657807707461</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add header">
+      <created>1657808489458</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1657808489458</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Problem with navigator (header)">
+      <created>1657815990810</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1657815990810</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +215,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="develop" />
+                        <option value="develop_2" />
                       </list>
                     </value>
                   </entry>
@@ -230,6 +243,18 @@
     <MESSAGE value="Add others screen (quest, tickets, info)" />
     <MESSAGE value="Fix colors" />
     <MESSAGE value="Add header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add header" />
+    <MESSAGE value="Problem with navigator (header)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problem with navigator (header)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/App.tsx</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
