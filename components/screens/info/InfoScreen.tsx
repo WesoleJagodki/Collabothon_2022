@@ -43,7 +43,13 @@ export const InfoScreen = function ({ navigation }: any): JSX.Element {
   return (
     <NativeBaseProvider>
       <View style={global_style.container}>
-        <Header navigation={navigation} picture={3} account={1} goto="LoginScreen" text="Info"/>
+        <Header
+          navigation={navigation}
+          picture={3}
+          account={1}
+          goto="LoginScreen"
+          text="Info"
+        />
         <View style={info_screen_style.container}>
           {screens.map((e, index) => {
             return (

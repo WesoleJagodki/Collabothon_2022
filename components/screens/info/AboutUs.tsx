@@ -12,8 +12,14 @@ export const AboutUs = function ({ navigation }: any): JSX.Element {
   return (
     <NativeBaseProvider>
       <View style={global_style.container}>
-        <Header />
-        <Footer navigation={navigation} currentScreen={FooterPage.HOME} />
+        <Header
+          navigation={navigation}
+          picture={3}
+          account={1}
+          goto="LoginScreen"
+          text="About us"
+        />
+        <Footer navigation={navigation} currentScreen={FooterPage.INFO} />
       </View>
     </NativeBaseProvider>
   );

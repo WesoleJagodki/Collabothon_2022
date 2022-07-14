@@ -11,7 +11,7 @@ export const header_style = StyleSheet.create({
     height: 0.1 * screen_height,
     width: screen_width,
     justifyContent: "flex-end",
-    alignItems: "center"
+    alignItems: "center",
   },
   text: {
     textAlign: "center",
@@ -30,12 +30,12 @@ export const header_style = StyleSheet.create({
     position: "absolute",
     backgroundColor: 0,
     right: 170,
-    top: "-25%"
+    top: "-25%",
   },
   button2: {
     position: "absolute",
     backgroundColor: 0,
     left: 160,
-    top: "-60%"
-  }
+    top: "-60%",
+  },
 });
