@@ -5,11 +5,11 @@ import { Button, NativeBaseProvider, Image } from "native-base";
 import { global_style } from "../styles/GlobalStyle";
 import { loading_screen } from "../styles/LoadingScreenStyle";
 import { BuyTicketPopup } from "../popups/BuyTicketPopup";
+import { MessagePopup } from "../popups/MessagePopup";
 
 export const LoadingScreen = function ({ navigation }: any): JSX.Element {
   return (
     <NativeBaseProvider>
-      <BuyTicketPopup onCancelPressed={() => null} onOkPressed={() => null} ticketDescription="TIcket" ticketImage={require("../../images/arrow.png")} ticketPrice="50PLN" visible={true}  />
       <View style={[global_style.container, loading_screen.container]}>
         <Image
           style={loading_screen.picture1}
