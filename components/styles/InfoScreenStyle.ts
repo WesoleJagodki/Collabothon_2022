@@ -6,7 +6,6 @@ export const info_screen_style = StyleSheet.create({
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
-    marginTop: 90,
   },
   listHeader: {
     fontWeight: "700",

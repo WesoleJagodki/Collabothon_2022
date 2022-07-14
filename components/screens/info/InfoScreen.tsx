@@ -2,6 +2,7 @@ import { Footer } from "../../footer/Footer";
 import { FooterPage } from "../../footer/FooterItem";
 import { global_style } from "../../styles/GlobalStyle";
 import { info_screen_style } from "../../styles/InfoScreenStyle";
+import { Header } from "../../header/Header";
 import { Button, NativeBaseProvider, Image } from "native-base";
 import React from "react";
 import { Text, View } from "react-native";
@@ -42,7 +43,7 @@ export const InfoScreen = function ({ navigation }: any): JSX.Element {
   return (
     <NativeBaseProvider>
       <View style={global_style.container}>
-        <Text>Info</Text>
+        <Header navigation={navigation} picture={3} account={1} goto="LoginScreen" text="Info"/>
         <View style={info_screen_style.container}>
           {screens.map((e, index) => {
             return (
