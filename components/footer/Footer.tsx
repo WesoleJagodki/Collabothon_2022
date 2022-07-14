@@ -17,7 +17,7 @@ export const Footer = function ({
   return (
     <NativeBaseProvider>
       <View style={footer_style.container}>
-        <HStack space={1} alignContent="center">
+        <HStack space={2} alignContent="center">
           <FooterItem
             navigation={navigation}
             page={FooterPage.HOME}

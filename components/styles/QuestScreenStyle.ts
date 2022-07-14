@@ -13,12 +13,14 @@ export const quest_screen_style = StyleSheet.create({
     },
     picture: {
         width: 310,
-        height: 130
+        height: 130,
+        borderRadius: 10
     },
     badge: {
         width: "85%",
         height: "30%",
         backgroundColor: "white",
+        marginBottom: 20
     },
     text2: {
         fontSize: 17,
@@ -27,6 +29,14 @@ export const quest_screen_style = StyleSheet.create({
     },
     text3: {
         fontSize: 15,
-        textAlign: "center"
+        textAlign: "center",
+        marginBottom: 5
     },
+    test: {
+        position: "absolute",
+        height: 500,
+        width: "100%",
+        bottom: 50,
+        left: "8%"
+    }
 });
