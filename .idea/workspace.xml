@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+	
     <list default="true" id="c9173394-11e7-4cb4-8ba6-8e9e8f00fbe3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+	
+    <list default="true" id="c9173394-11e7-4cb4-8ba6-8e9e8f00fbe3" name="Changes" comment="Add header">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/TicketsScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/TicketsScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/styles/TicketsScreenStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/styles/TicketsScreenStyle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigator/RootNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/navigator/RootNavigator.tsx" afterDir="false" />
+<<<<<<< Updated upstream
+		
+=======
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +49,8 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -50,8 +63,27 @@
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Damian\\Documents\\ORIENTARIUM\\MAIN\\node_modules\\prettier&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Damian\\Documents\\ORIENTARIUM\\MAIN\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+=======
+=======
+>>>>>>> Stashed changes
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Damian/Documents/ORIENTARIUM/MAIN",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Damian\\Documents\\ORIENTARIUM\\MAIN\\node_modules\\prettier",
+    "ts.external.directory.path": "C:\\Users\\Damian\\Documents\\ORIENTARIUM\\MAIN\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sarna\PhpstormProjects\Collabothon_2022\images" />
