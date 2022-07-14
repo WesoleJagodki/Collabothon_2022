@@ -11,10 +11,6 @@
       <change beforePath="$PROJECT_DIR$/components/screens/TicketsScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/TicketsScreen.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/styles/TicketsScreenStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/styles/TicketsScreenStyle.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/navigator/RootNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/navigator/RootNavigator.tsx" afterDir="false" />
-<<<<<<< Updated upstream
-		
-=======
->>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +47,7 @@
   </component>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -66,6 +63,8 @@
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -79,6 +78,9 @@
     "ts.external.directory.path": "C:\\Users\\Damian\\Documents\\ORIENTARIUM\\MAIN\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
