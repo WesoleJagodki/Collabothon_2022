@@ -5,6 +5,7 @@ export const registration_screen = StyleSheet.create({
         fontWeight: "bold",
         fontSize: 34,
         marginBottom: 9,
+        marginTop: -5
     },
     text2: {
         fontSize: 20,
@@ -16,10 +17,10 @@ export const registration_screen = StyleSheet.create({
     vstack2: {
         flex: 1,
         width: "85%",
-        marginTop: 46,
+        marginTop: 26,
     },
     input: {
-        flex: 1,
+        flexGrow: 1,
         backgroundColor: "#F6F6F6",
         color: "black",
         width: 300,
@@ -47,17 +48,21 @@ export const registration_screen = StyleSheet.create({
         fontWeight: "bold"
     },
     picture1: {
-        position: "absolute",
+        position: "relative",
         width: 155,
         height: 110,
-        bottom: "2%",
-        left: "0%"
+        bottom: "4%",
+        right: "40%"
     },
     picture2: {
-        position: "absolute",
+        position: "relative",
         width: 150,
         height: 160,
-        right: "-5%",
-        bottom: "2%"
-    }
+        left: "42%",
+        bottom: "20%"
+    },
+    hstack: {
+        position: "absolute",
+        bottom: "23%"
+    },
 });
