@@ -8,7 +8,6 @@ import { Footer } from "../footer/Footer";
 import { FooterPage } from "../footer/FooterItem";
 import { tickets_screen_style } from "../styles/TicketsScreenStyle";
 import { Header } from "../header/Header";
-import { registration_screen } from "../styles/RegistrationScreenStyle";
 import { BuyTicketPopup } from "../popups/BuyTicketPopup";
 
 export const TicketsScreen = function ({ navigation }: any): JSX.Element {
@@ -52,13 +51,7 @@ export const TicketsScreen = function ({ navigation }: any): JSX.Element {
             onOkPressed={() => setTicket4Visible(false)}
             onCancelPressed={() => setTicket4Visible(false)}
           />
-          <VStack style={tickets_screen_style.vstack1}>
-            <Image
-              source={require("../../images/header-1.png")}
-              style={tickets_screen_style.picture1}
-              alt="Orientarium ZOO Łódź"
-            ></Image>
-          </VStack>
+          <VStack style={tickets_screen_style.vstack1}></VStack>
         </Header>
 
         <View style={tickets_screen_style.view1}>

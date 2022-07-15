@@ -18,8 +18,10 @@ import { OpeningHours } from "../components/screens/info/OpeningHours";
 
 import { AccountScreen } from "../components/screens/AccountScreen";
 import { ShowFeeding } from "../components/screens/info/ShowFeeding";
+import { OpeningHours } from "../components/screens/info/OpeningHours";
+import { TicketDetailsScreen } from "../components/screens/TicketDetailsScreen";
+import { PicturePickerScreen } from "../components/screens/PicturePickerScreen";
 import { FlowersMissionScreen } from "../components/screens/FlwersMissionScreen";
-
 const Stack = createNativeStackNavigator();
 
 export const RootNavigator = function (): JSX.Element {
