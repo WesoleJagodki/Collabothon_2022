@@ -89,7 +89,7 @@ export const QuestInsideScreen = function ({ navigation }: any): JSX.Element {
             <Badge
               shadow={4}
               rounded={20}
-              style={quest_inside_screen_style.badge}
+              style={quest_inside_screen_style.badge1}
             >
               <Image
                 style={quest_inside_screen_style.picture}
@@ -114,7 +114,7 @@ export const QuestInsideScreen = function ({ navigation }: any): JSX.Element {
             <Badge
               shadow={4}
               rounded={20}
-              style={quest_inside_screen_style.badge}
+              style={quest_inside_screen_style.badge1}
             >
               <Image
                 style={quest_inside_screen_style.picture}
