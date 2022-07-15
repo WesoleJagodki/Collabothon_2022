@@ -11,6 +11,7 @@ import { TicketsScreen } from "../components/screens/TicketsScreen";
 import { MapScreen } from "../components/screens/MapScreen";
 import { InfoScreen } from "../components/screens/info/InfoScreen";
 import { AboutUs } from "../components/screens/info/AboutUs";
+import { AccountScreen } from "../components/screens/AccountScreen";
 import { ShowFeeding } from "../components/screens/info/ShowFeeding";
 
 import { PicturePickerScreen } from "../components/screens/PicturePickerScreen";
@@ -80,7 +81,11 @@ export const RootNavigator = function (): JSX.Element {
         component={AboutUs}
         options={{ title: "AboutUs" }}
       />
-
+      <Stack.Screen
+        name="AccountScreen"
+        component={AccountScreen}
+        options={{ title: "AccountScreen" }}
+      />
       <Stack.Screen
         name="PicturePickerScreen"
         component={PicturePickerScreen}

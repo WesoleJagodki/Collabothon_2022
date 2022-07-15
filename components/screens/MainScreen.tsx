@@ -15,7 +15,7 @@ export const MainScreen = function ({ navigation }: any): JSX.Element {
           navigation={navigation}
           picture={3}
           account={1}
-          goto="LoginScreen"
+          goto2="AccountScreen"
           text="Home"
         />
 

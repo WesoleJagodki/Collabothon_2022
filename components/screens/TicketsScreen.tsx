@@ -21,9 +21,8 @@ export const TicketsScreen = function ({ navigation }: any): JSX.Element {
       <View style={global_style.container}>
         <Header
           navigation={navigation}
-          picture={3}
-          account={1}
-          goto="LoginScreen"
+          picture={1}
+          account={2}
           text="Tickets"
         >
           <BuyTicketPopup
