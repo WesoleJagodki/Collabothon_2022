@@ -28,7 +28,7 @@ export const Header = function ({
   goto,
   picture,
   account,
-    goto2,
+  goto2,
   children,
 }: Props): JSX.Element {
   return (

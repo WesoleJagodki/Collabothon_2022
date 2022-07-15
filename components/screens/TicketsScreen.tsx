@@ -17,7 +17,6 @@ export const TicketsScreen = function ({ navigation }: any): JSX.Element {
           navigation={navigation}
           picture={1}
           account={2}
-          goto="LoginScreen"
           text="Tickets"
         />
 
