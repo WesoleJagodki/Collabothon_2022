@@ -15,11 +15,11 @@ export const AboutUs = function ({ navigation }: any): JSX.Element {
           navigation={navigation}
           picture={3}
           account={1}
-          goto="LoginScreen"
+          goto="InfoScreen"
           text="About us"
         />
         <View>
-          <ScrollView style={style.view} >
+          <ScrollView style={style.view}>
             <View style={style.container}>
               <Text style={style.text}>
                 Our mission is to protect endangered species, educate and

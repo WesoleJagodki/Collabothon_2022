@@ -1,8 +1,5 @@
 import React from "react";
-import { Text, View } from "react-native";
-import { NativeBaseProvider, HStack, Image} from "native-base";
-
-import { button_style } from "./CustomButtonStyle";
+import { View } from "react-native";
 
 interface Props {
   navigation: any;
@@ -19,7 +16,5 @@ export const CustomButton = function ({
   picture,
   account,
 }: Props): JSX.Element {
-  return (
-    <View></View>
-  );
+  return <View></View>;
 };

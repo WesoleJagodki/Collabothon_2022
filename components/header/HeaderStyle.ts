@@ -1,6 +1,5 @@
 import { Dimensions, StyleSheet } from "react-native";
 const screen_width = Dimensions.get("window").width;
-const screen_height = Dimensions.get("window").height;
 
 export const header_style = StyleSheet.create({
   container: {
@@ -27,21 +26,18 @@ export const header_style = StyleSheet.create({
     fontSize: 24,
     left: "50%",
   },
-  picture: {
+  account: {
     height: 30,
     width: 30,
-  },
-  account: {
-    height: 40,
-    width: 40,
   },
   button1: {
     position: "absolute",
     backgroundColor: 0,
-    right: 170,
-    top: "-25%",
+    right: 340,
+    top: "0%",
   },
   button2: {
-   backgroundColor: 0
+    backgroundColor: 0,
+    right: 10,
   },
 });

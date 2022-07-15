@@ -1,13 +1,12 @@
 import React from "react";
 import {ScrollView, Text, TouchableOpacity, View} from "react-native";
 import {Button, NativeBaseProvider, Image, HStack, Badge, VStack} from "native-base";
-
 import { global_style } from "../styles/GlobalStyle";
-import {quest_screen_style} from "../styles/QuestScreenStyle";
+import { quest_screen_style } from "../styles/QuestScreenStyle";
 
 import { Footer } from "../footer/Footer";
 import { FooterPage } from "../footer/FooterItem";
-import {Header} from "../header/Header";
+import { Header } from "../header/Header";
 
 export const QuestScreen = function ({ navigation }: any): JSX.Element {
   return (
