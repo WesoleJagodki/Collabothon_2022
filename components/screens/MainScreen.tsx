@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { ScrollView, View } from "react-native";
 import { Badge, Image, NativeBaseProvider, Text } from "native-base";
 
@@ -8,8 +8,15 @@ import { main_screen_style } from "../styles/MainScreenStyle";
 import { Footer } from "../footer/Footer";
 import { FooterPage } from "../footer/FooterItem";
 import { Header } from "../header/Header";
+import { UserApi } from "../../services/user";
 
 export const MainScreen = function ({ navigation }: any): JSX.Element {
+  const [points, setPoints] = useState(705);
+
+  useEffect(() => {
+    UserApi.getPoints().then((newPoints) => setPoints(newPoints))
+  }, []);
+
   return (
     <NativeBaseProvider>
       <View style={global_style.container}>
@@ -35,7 +42,7 @@ export const MainScreen = function ({ navigation }: any): JSX.Element {
           source={require("../../images/coin.png")}
           alt="Orientarium ZOO Łódź"
         />
-        <Text style={main_screen_style.text12}>705</Text>
+        <Text style={main_screen_style.text12}>{points}</Text>
         <Text style={main_screen_style.text11}>Check prizes</Text>
         <Text style={main_screen_style.text2}>News</Text>
         <ScrollView style={main_screen_style.scrollview} horizontal={true}>

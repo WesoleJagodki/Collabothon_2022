@@ -10,6 +10,7 @@ import { Footer } from "../footer/Footer";
 import { FooterPage } from "../footer/FooterItem";
 import { upload_image_style } from "../styles/UploadImageStyle";
 import { MessagePopup } from "../popups/MessagePopup";
+import { UserApi } from "../../services/user";
 
 function uploadImage(image: any, successCallback: any, failCallback: any) {
   if (!image?.uri) {
@@ -45,6 +46,11 @@ export const UploadFlowerImageScreen = function ({ navigation }: any): JSX.Eleme
 
   const [successVisible, setSuccessVisible] = useState(false);
   const [failureVisible, setFailureVisible] = useState(false);
+
+  function success() {
+    setSuccessVisible(true);
+    UserApi.addPoints(10);
+  }
 
   const pickImage = async () => {
     let result = await ImagePicker.launchCameraAsync({
@@ -108,7 +114,7 @@ export const UploadFlowerImageScreen = function ({ navigation }: any): JSX.Eleme
             <Text style={upload_image_style.btn_text}>Take photo</Text>
           </TouchableOpacity>
           <TouchableOpacity
-            onPress={() => uploadImage(image, () => (setSuccessVisible(true)), () => setFailureVisible(true))}
+            onPress={() => uploadImage(image, success, () => setFailureVisible(true))}
             style={upload_image_style.upload_button}
           >
             <Text style={upload_image_style.btn_text}>Send image</Text>

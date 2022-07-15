@@ -19,6 +19,8 @@ export class UserApi {
 
     const jsonValue = JSON.stringify(token);
     await AsyncStorage.setItem("@tokens", jsonValue);
+
+    await AsyncStorage.setItem("@user", JSON.stringify(user));
     return true;
   }
 
@@ -35,6 +37,43 @@ export class UserApi {
 
     const jsonValue = JSON.stringify(token);
     await AsyncStorage.setItem("@tokens", jsonValue);
+
+    await AsyncStorage.setItem("@user", JSON.stringify({}));
     return true;
+  }
+  static async getPoints(): Promise<number> {
+    const u = await AsyncStorage.getItem(`@user`) as string;
+    const user = JSON.parse(u)
+    console.log(user)
+  let p;
+
+    if(user.point === undefined) {
+      p = 705
+    }
+    else{
+      p = user.point
+    }
+
+    return p
+  }
+  static async addPoints(points) {
+    const u = await AsyncStorage.getItem(`@user`) as string
+    const user = JSON.parse(u)
+
+    console.log(user)
+    let n
+    try {
+       n = user.point
+    } catch (e) {
+      n = 705
+    }
+    if(n === undefined)
+    {
+      n = 705;
+    }
+    n += points;
+    user.point = n
+    const jsonValue = JSON.stringify(user);
+    await AsyncStorage.setItem("@user", jsonValue);
   }
 }
