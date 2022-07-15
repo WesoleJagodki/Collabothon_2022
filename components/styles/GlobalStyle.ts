@@ -19,11 +19,11 @@ export const global_style = StyleSheet.create({
     color: "gray",
     top: "25%",
     right: "5%",
-    },
-    text1: {
-        fontWeight: "bold",
-        fontSize: 34,
-        marginBottom: 9,
-        marginTop: 10,
-    },
+  },
+  text1: {
+    fontWeight: "bold",
+    fontSize: 34,
+    marginBottom: 9,
+    marginTop: 10,
+  },
 });

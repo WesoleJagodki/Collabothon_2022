@@ -29,26 +29,24 @@ export const Header = function ({
   goto,
   picture,
   account,
-    goto2,
+  goto2,
   children,
 }: Props): JSX.Element {
   return (
     <NativeBaseProvider>
       <View style={header_style.container}>
-          <View>
-              {children}
-          </View>
-          <Button
-            style={header_style.button1}
-            onPress={() => navigation.navigate(goto)}
-          >
-            <Image
-              width={30}
-              height={30}
-              source={headerImages[`header${picture}`]}
-              alt="Orientarium ZOO Łódź"
-            />
-          </Button>
+        <View>{children}</View>
+        <Button
+          style={header_style.button1}
+          onPress={() => navigation.navigate(goto)}
+        >
+          <Image
+            width={30}
+            height={30}
+            source={headerImages[`header${picture}`]}
+            alt="Orientarium ZOO Łódź"
+          />
+        </Button>
 
         <Text style={children ? header_style.text : header_style.textcenter}>
           {text}

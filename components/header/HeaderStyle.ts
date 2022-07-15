@@ -38,6 +38,6 @@ export const header_style = StyleSheet.create({
   },
   button2: {
     backgroundColor: 0,
-    right: 10
+    right: 10,
   },
 });

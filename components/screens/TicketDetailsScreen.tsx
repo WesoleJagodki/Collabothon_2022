@@ -17,9 +17,9 @@ export const TicketDetailsScreen = function ({
   ticketImage,
   buttonColor,
   ticketShortDescription,
-  ticketPrice
+  ticketPrice,
 }: any): JSX.Element {
-    const [buyVisible, setBuyVisible] = useState(false);
+  const [buyVisible, setBuyVisible] = useState(false);
   return (
     <NativeBaseProvider>
       <View style={global_style.container}>
