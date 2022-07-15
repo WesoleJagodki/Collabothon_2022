@@ -17,6 +17,6 @@ export const upload_image_style = StyleSheet.create({
     color: "white",
     textAlign: "center",
     margin: 10,
-    fontWeight: "bold"
-  }
+    fontWeight: "bold",
+  },
 });

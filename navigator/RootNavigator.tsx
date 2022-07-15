@@ -18,8 +18,7 @@ import { OpeningHours } from "../components/screens/info/OpeningHours";
 
 import { AccountScreen } from "../components/screens/AccountScreen";
 import { ShowFeeding } from "../components/screens/info/ShowFeeding";
-import {FlowersMissionScreen} from "../components/screens/FlwersMissionScreen";
-
+import { FlowersMissionScreen } from "../components/screens/FlwersMissionScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -51,15 +50,15 @@ export const RootNavigator = function (): JSX.Element {
         component={QuestScreen}
         options={{ title: "QuestScreen" }}
       />
-       <Stack.Screen
-          name="QuestInsideScreen"
-          component={QuestInsideScreen}
-          options={{ title: "QuestInsideScreen" }}
+      <Stack.Screen
+        name="QuestInsideScreen"
+        component={QuestInsideScreen}
+        options={{ title: "QuestInsideScreen" }}
       />
       <Stack.Screen
-          name="FlowersMissionScreen"
-          component={FlowersMissionScreen}
-          options={{ title: "FlowersMissionScreen" }}
+        name="FlowersMissionScreen"
+        component={FlowersMissionScreen}
+        options={{ title: "FlowersMissionScreen" }}
       />
       <Stack.Screen
         name="TicketsScreen"
@@ -75,12 +74,12 @@ export const RootNavigator = function (): JSX.Element {
         name="InfoScreen"
         component={InfoScreen}
         options={{ title: "InfoScreen" }}
-          />
-          <Stack.Screen
-              name="ShowFeeding"
-              component={ShowFeeding}
-              options={{ title: "ShowFeeding" }}
-          />
+      />
+      <Stack.Screen
+        name="ShowFeeding"
+        component={ShowFeeding}
+        options={{ title: "ShowFeeding" }}
+      />
       <Stack.Screen
         name="AboutUs"
         component={AboutUs}

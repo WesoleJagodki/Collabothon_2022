@@ -46,7 +46,7 @@ export const quest_inside_screen_style = StyleSheet.create({
     justifyContent: "space-between",
     paddingHorizontal: 12,
     marginTop: 25,
-    marginBottom: 15
+    marginBottom: 15,
   },
   view2: {
     flexDirection: "row",

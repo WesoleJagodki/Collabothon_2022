@@ -11,7 +11,7 @@ import { FooterPage } from "../footer/FooterItem";
 import { upload_image_style } from "../styles/UploadImageStyle";
 
 function uploadImage(image: any) {
-  if(!image?.uri) {
+  if (!image?.uri) {
     return;
   }
 
@@ -26,19 +26,23 @@ function uploadImage(image: any) {
   formdata.append("file", image.base64);
 
   let requestOptions = {
-    method: 'POST',
+    method: "POST",
     body: formdata,
-    redirect: 'follow'
+    redirect: "follow",
   };
 
-  fetch("https://be07-31-182-74-174.eu.ngrok.io/predict_sunflower", requestOptions)
-    .then(response => response.text())
-    .then(result => console.log(result))
-    .catch(error => console.log('error', error));
+  fetch(
+    "https://be07-31-182-74-174.eu.ngrok.io/predict_sunflower",
+    requestOptions
+  )
+    .then((response) => response.text())
+    .then((result) => console.log(result))
+    .catch((error) => console.log("error", error));
 }
 
-export const UploadImageScreen = function ({navigation}: any): JSX.Element {
-  const [image, setImage] = React.useState<null | ImagePicker.ImagePickerResult>(null);
+export const UploadImageScreen = function ({ navigation }: any): JSX.Element {
+  const [image, setImage] =
+    React.useState<null | ImagePicker.ImagePickerResult>(null);
 
   const pickImage = async () => {
     let result = await ImagePicker.launchCameraAsync({
@@ -46,7 +50,7 @@ export const UploadImageScreen = function ({navigation}: any): JSX.Element {
       allowsEditing: true,
       aspect: [4, 4],
       quality: 1,
-      base64: true
+      base64: true,
     });
 
     if (!result.cancelled && result.uri) {
@@ -77,12 +81,34 @@ export const UploadImageScreen = function ({navigation}: any): JSX.Element {
         </Header>
 
         <View style={tickets_screen_style.view1}>
-          <Text style={{fontSize: 18, textAlign: "center", margin: 20}}>Binturong (Arctictis binturong)</Text>
+          <Text style={{ fontSize: 18, textAlign: "center", margin: 20 }}>
+            Binturong (Arctictis binturong)
+          </Text>
           {image ? (
-            <Image source={{ uri: image.uri }} style={upload_image_style.pictureView} />
-          ) : (<View style={[upload_image_style.pictureView, {backgroundColor: "gray"}]}></View>)}
-          <TouchableOpacity onPress={pickImage} style={upload_image_style.upload_button}><Text style={upload_image_style.btn_text}>Take photo</Text></TouchableOpacity>
-          <TouchableOpacity onPress={() => uploadImage(image)} style={upload_image_style.upload_button}><Text style={upload_image_style.btn_text}>Send image</Text></TouchableOpacity>
+            <Image
+              source={{ uri: image.uri }}
+              style={upload_image_style.pictureView}
+            />
+          ) : (
+            <View
+              style={[
+                upload_image_style.pictureView,
+                { backgroundColor: "gray" },
+              ]}
+            ></View>
+          )}
+          <TouchableOpacity
+            onPress={pickImage}
+            style={upload_image_style.upload_button}
+          >
+            <Text style={upload_image_style.btn_text}>Take photo</Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => uploadImage(image)}
+            style={upload_image_style.upload_button}
+          >
+            <Text style={upload_image_style.btn_text}>Send image</Text>
+          </TouchableOpacity>
         </View>
 
         <Footer navigation={navigation} currentScreen={FooterPage.TICKETS} />

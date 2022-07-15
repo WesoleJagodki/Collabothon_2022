@@ -19,12 +19,7 @@ export const TicketsScreen = function ({ navigation }: any): JSX.Element {
   return (
     <NativeBaseProvider>
       <View style={global_style.container}>
-        <Header
-          navigation={navigation}
-          picture={1}
-          account={2}
-          text="Tickets"
-        >
+        <Header navigation={navigation} picture={1} account={2} text="Tickets">
           <BuyTicketPopup
             ticketDescription="Ticket with Karta Łodzianina"
             ticketImage={require("../../images/tickets-screen-1.png")}
