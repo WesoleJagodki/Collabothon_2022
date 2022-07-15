@@ -25,25 +25,29 @@ export const TicketsScreen = function ({ navigation }: any): JSX.Element {
               </VStack>
           </Header>
 
-          <View>
-              <View style={tickets_screen_style.view1}>
-                  <View>
+          <View style={tickets_screen_style.view1}>
+              <View style={tickets_screen_style.view2}>
+                  <View style={tickets_screen_style.view3}>
                       <Image style={tickets_screen_style.picture2} source={require("../../images/tickets-screen-1.png")} />
-                      <Text>wifnwiwowfno</Text>
+                      <Text style={tickets_screen_style.text1}>Ticket with Karta Łodzianina</Text>
+                      <Text style={tickets_screen_style.text2}>40 pln</Text>
                   </View>
-                  <View>
+                  <View style={tickets_screen_style.view3}>
                       <Image style={tickets_screen_style.picture2} source={require("../../images/tickets-screen-2.png")} />
-                      <Text>wofnwoifwanfiwoanfiwainf</Text>
+                      <Text style={tickets_screen_style.text1}>Ticket Orientarium ZOO Łódź</Text>
+                      <Text style={tickets_screen_style.text2}>70 pln</Text>
                   </View>
               </View>
-              <View style={tickets_screen_style.view1}>
-                  <View>
+              <View style={tickets_screen_style.view2}>
+                  <View style={tickets_screen_style.view3}>
                       <Image style={tickets_screen_style.picture2} source={require("../../images/tickets-screen-3.png")} />
-                      <Text>opfnwepifnif</Text>
+                      <Text style={tickets_screen_style.text1}>Combined ticket: ZOO Łódź and EC1</Text>
+                      <Text style={tickets_screen_style.text2}>40 pln</Text>
                   </View>
-                  <View>
+                  <View style={tickets_screen_style.view3}>
                       <Image style={tickets_screen_style.picture2} source={require("../../images/tickets-screen-4.png")} />
-                      <Text>wfnwoifwnf</Text>
+                      <Text style={tickets_screen_style.text1}>Family Ticket (2 + 2)</Text>
+                      <Text style={tickets_screen_style.text2}>220 pln</Text>
                   </View>
               </View>
           </View>
