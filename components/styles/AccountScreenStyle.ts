@@ -27,7 +27,7 @@ export const account_screen_style = StyleSheet.create({
     fontWeight: "bold",
     paddingTop: 5,
     left: "5%",
-    top: "65%",
+    top: "77%",
   },
   text4: {
     position: "absolute",
@@ -35,20 +35,50 @@ export const account_screen_style = StyleSheet.create({
     fontWeight: "bold",
     paddingTop: 5,
     left: "5%",
-    top: "70%",
+    top: "81%",
   },
   text5: {
     position: "absolute",
     fontSize: 17,
     paddingTop: 5,
     left: "10%",
-    top: "74%",
+    top: "85%",
   },
   text6: {
     position: "absolute",
     fontSize: 17,
     paddingTop: 5,
     left: "10%",
-    top: "77%",
+    top: "88%",
+  },
+  badge: {
+    width: 260,
+    height: 250,
+    backgroundColor: "white",
+    marginBottom: 20,
+    marginLeft: 10,
+    marginRight: 10,
+  },
+  picture2: {
+    width: 250,
+    height: 190,
+  },
+  scrollview: {
+    position: "absolute",
+    top: "42%",
+  },
+  text7: {
+    textAlign: "center",
+    fontWeight: "bold",
+    fontSize: 17,
+  },
+  text8: {
+    textAlign: "center",
+    fontSize: 15,
+    marginLeft: 5,
+  },
+  picture3: {
+    width: 20,
+    height: 20,
   },
 });
