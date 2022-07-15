@@ -14,6 +14,7 @@ import { AboutUs } from "../components/screens/info/AboutUs";
 
 import { PicturePickerScreen } from "../components/screens/PicturePickerScreen";
 import { TicketDetailsScreen } from "../components/screens/TicketDetailsScreen";
+import { OpeningHours } from "../components/screens/info/OpeningHours";
 
 const Stack = createNativeStackNavigator();
 
@@ -75,6 +76,11 @@ export const RootNavigator = function (): JSX.Element {
         name="PicturePickerScreen"
         component={PicturePickerScreen}
         options={{ title: "PicturePickerScreen" }}
+      />
+      <Stack.Screen
+        name="OpeningHours"
+        component={OpeningHours}
+        options={{ title: "OpeningHours" }}
       />
       <Stack.Screen
         name="TicketDetailsScreen1"
