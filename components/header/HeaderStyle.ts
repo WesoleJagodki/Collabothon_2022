@@ -31,16 +31,17 @@ export const header_style = StyleSheet.create({
     width: 30,
   },
   account: {
-    height: 40,
-    width: 40,
+    height: 30,
+    width: 30,
   },
   button1: {
     position: "absolute",
     backgroundColor: 0,
-    right: 170,
-    top: "-25%",
+    right: 340,
+    top: "0%",
   },
   button2: {
     backgroundColor: 0,
+    right: 10
   },
 });

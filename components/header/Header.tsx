@@ -8,6 +8,7 @@ interface Props {
   navigation: any;
   text: any;
   goto: any;
+  goto2: any;
   picture: number;
   account: number;
 }
@@ -18,6 +19,7 @@ const headerImages = {
   header3: null,
   account1: require("../../images/account-screen-1.png"),
   account2: null,
+  account3: require("../../images/header-3.png"),
 };
 
 export const Header = function ({
@@ -26,6 +28,7 @@ export const Header = function ({
   goto,
   picture,
   account,
+    goto2,
   children,
 }: Props): JSX.Element {
   return (
@@ -48,7 +51,7 @@ export const Header = function ({
         </Text>
         <Button
           style={header_style.button2}
-          onPress={() => navigation.navigate("RegistrationScreen")}
+          onPress={() => navigation.navigate(goto2)}
         >
           <Image
             style={header_style.account}
