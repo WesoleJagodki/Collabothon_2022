@@ -20,6 +20,11 @@ export const quest_inside_screen_style = StyleSheet.create({
     width: "47%",
     backgroundColor: "white",
   },
+  badge1: {
+    width: "47%",
+    backgroundColor: "white",
+    marginBottom: 50,
+  },
   text2: {
     fontSize: 16,
     textAlign: "center",
@@ -38,6 +43,9 @@ export const quest_inside_screen_style = StyleSheet.create({
   },
   test: {
     position: "absolute",
+    height: 550,
+    width: "100%",
+    bottom: 50,
   },
   view1: {
     flexDirection: "row",

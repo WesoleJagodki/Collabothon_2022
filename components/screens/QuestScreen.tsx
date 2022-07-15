@@ -1,13 +1,6 @@
 import React from "react";
 import { ScrollView, Text, TouchableOpacity, View } from "react-native";
-import {
-  Button,
-  NativeBaseProvider,
-  Image,
-  HStack,
-  Badge,
-  VStack,
-} from "native-base";
+import { Button, NativeBaseProvider, Image, HStack, Badge } from "native-base";
 import { global_style } from "../styles/GlobalStyle";
 import { quest_screen_style } from "../styles/QuestScreenStyle";
 
