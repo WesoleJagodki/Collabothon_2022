@@ -11,12 +11,12 @@ import { TicketsScreen } from "../components/screens/TicketsScreen";
 import { MapScreen } from "../components/screens/MapScreen";
 import { InfoScreen } from "../components/screens/info/InfoScreen";
 import { AboutUs } from "../components/screens/info/AboutUs";
+import { AccountScreen } from "../components/screens/AccountScreen";
 import { ShowFeeding } from "../components/screens/info/ShowFeeding";
-
+import {OpeningHours} from "../components/screens/info/OpeningHours";
+import {TicketDetailsScreen} from "../components/screens/TicketDetailsScreen";
 import { PicturePickerScreen } from "../components/screens/PicturePickerScreen";
-import { TicketDetailsScreen } from "../components/screens/TicketDetailsScreen";
-import { OpeningHours } from "../components/screens/info/OpeningHours";
-
+import {FlowersMissionScreen} from "../components/screens/FlwersMissionScreen";
 const Stack = createNativeStackNavigator();
 
 export const RootNavigator = function (): JSX.Element {
@@ -24,8 +24,8 @@ export const RootNavigator = function (): JSX.Element {
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen
         name="Root"
-        component={LoginScreen}
-        options={{ title: "LoginScreen" }}
+        component={ShowFeeding}
+        options={{ title: "LoadingScreen" }}
       />
       <Stack.Screen
         name="RegistrationScreen"
@@ -47,10 +47,15 @@ export const RootNavigator = function (): JSX.Element {
         component={QuestScreen}
         options={{ title: "QuestScreen" }}
       />
+       <Stack.Screen
+          name="QuestInsideScreen"
+          component={QuestInsideScreen}
+          options={{ title: "QuestInsideScreen" }}
+      />
       <Stack.Screen
-        name="QuestInsideScreen"
-        component={QuestInsideScreen}
-        options={{ title: "QuestInsideScreen" }}
+          name="FlowersMissionScreen"
+          component={FlowersMissionScreen}
+          options={{ title: "FlowersMissionScreen" }}
       />
       <Stack.Screen
         name="TicketsScreen"
@@ -77,7 +82,11 @@ export const RootNavigator = function (): JSX.Element {
         component={AboutUs}
         options={{ title: "AboutUs" }}
       />
-
+      <Stack.Screen
+        name="AccountScreen"
+        component={AccountScreen}
+        options={{ title: "AccountScreen" }}
+      />
       <Stack.Screen
         name="PicturePickerScreen"
         component={PicturePickerScreen}
