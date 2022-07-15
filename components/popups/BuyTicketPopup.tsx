@@ -1,6 +1,6 @@
-import { HStack, Input, VStack } from "native-base";
+import { HStack, Input, VStack, Image } from "native-base";
 import React, { useState } from "react";
-import { Modal, Text, View, Image, TouchableOpacity } from "react-native";
+import { Modal, Text, View, TouchableOpacity } from "react-native";
 import { ticket_popup_style } from "../styles/TicketPopupStyle";
 
 interface Props {
@@ -42,9 +42,10 @@ export const BuyTicketPopup = function ({
             <HStack>
               <Image
                 source={ticketImage}
-                width={90}
-                height={90}
+                width={20}
+                height={20}
                 style={{ margin: 10 }}
+                alt="Ticket"
               />
               <VStack>
                 <HStack>

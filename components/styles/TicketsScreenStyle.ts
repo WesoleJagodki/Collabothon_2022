@@ -4,7 +4,7 @@ export const tickets_screen_style = StyleSheet.create({
   text1: {
     fontSize: 15,
     width: 130,
-    height: 35,
+    height: 45,
     textAlign: "center",
     fontWeight: "bold",
   },
@@ -49,7 +49,7 @@ export const tickets_screen_style = StyleSheet.create({
     justifyContent: "space-between",
   },
   button1: {
-    width: 60,
+    width: "49%",
     borderRadius: 5,
   },
 });

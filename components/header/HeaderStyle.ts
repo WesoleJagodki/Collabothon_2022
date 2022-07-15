@@ -26,10 +26,6 @@ export const header_style = StyleSheet.create({
     fontSize: 24,
     left: "50%",
   },
-  picture: {
-    height: 30,
-    width: 30,
-  },
   account: {
     height: 30,
     width: 30,

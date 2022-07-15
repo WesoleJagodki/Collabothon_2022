@@ -7,7 +7,7 @@ export const ticket_popup_style = StyleSheet.create({
     alignItems: "center",
   },
   modalView: {
-    flex: 0.24,
+    height: "25%",
     margin: 20,
     backgroundColor: "#F5F5F5",
     borderRadius: 20,

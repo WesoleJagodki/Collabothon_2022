@@ -11,6 +11,7 @@ interface Props {
   goto2: any;
   picture: number;
   account: number;
+  children: any;
 }
 
 const headerImages = {
@@ -40,7 +41,8 @@ export const Header = function ({
           onPress={() => navigation.navigate(goto)}
         >
           <Image
-            style={header_style.picture}
+            width={30}
+            height={30}
             source={headerImages[`header${picture}`]}
             alt="Orientarium ZOO Łódź"
           />
