@@ -22,7 +22,11 @@ export const QuestScreen = function ({ navigation }: any): JSX.Element {
               />
               <HStack space={10} style={quest_screen_style.hstack}>
                   <Button rounded={20} colorScheme={"orange"}>Outside</Button>
-                  <Button rounded={20} backgroundColor={0}><Text>Inside</Text></Button>
+                  <Button onPress={() => navigation.navigate("QuestInsideScreen")}
+                          rounded={20}
+                          backgroundColor={0}>
+                      <Text>Inside</Text>
+                  </Button>
               </HStack>
               <Text style={quest_screen_style.text1}>Mission</Text>
                   <ScrollView style={quest_screen_style.test}>
