@@ -1,6 +1,5 @@
 import { Dimensions, StyleSheet } from "react-native";
 const screen_width = Dimensions.get("window").width;
-const screen_height = Dimensions.get("window").height;
 
 export const header_style = StyleSheet.create({
   container: {
@@ -42,6 +41,6 @@ export const header_style = StyleSheet.create({
     top: "-25%",
   },
   button2: {
-   backgroundColor: 0
+    backgroundColor: 0,
   },
 });

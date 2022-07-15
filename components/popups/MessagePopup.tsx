@@ -1,6 +1,5 @@
-import { HStack, Input, VStack } from "native-base";
-import React, { useState } from "react";
-import { Modal, Text, View, Image, TouchableOpacity } from "react-native";
+import React from "react";
+import { Modal, Text, View, TouchableOpacity } from "react-native";
 import { message_popup_style } from "../styles/MessagePopupStyle";
 
 interface Props {
@@ -31,18 +30,21 @@ export const MessagePopup = function ({
         <View style={message_popup_style.centeredView}>
           <View style={message_popup_style.modalView}>
             <Text style={message_popup_style.modalHeader}>{header}</Text>
-            <Text style={message_popup_style.modalDescription}>{description}</Text>
+            <Text style={message_popup_style.modalDescription}>
+              {description}
+            </Text>
 
             <TouchableOpacity
-                style={message_popup_style.button}
-                onPress={() => onCancelPressed()}
-              >
-                <Text style={message_popup_style.textStyle}>{exitButtonText}</Text>
-              </TouchableOpacity>
+              style={message_popup_style.button}
+              onPress={() => onCancelPressed()}
+            >
+              <Text style={message_popup_style.textStyle}>
+                {exitButtonText}
+              </Text>
+            </TouchableOpacity>
           </View>
         </View>
       </Modal>
     </View>
   );
 };
-

@@ -7,10 +7,10 @@ export const style = StyleSheet.create({
   container: {
     marginLeft: 30,
     marginRight: 30,
-    marginBottom: 100
+    marginBottom: 100,
   },
   text: {
-fontWeight: "400",
+    fontWeight: "400",
     fontSize: 18,
     lineHeight: 22,
   },
@@ -19,6 +19,6 @@ fontWeight: "400",
     marginTop: 15,
     marginBottom: 15,
     display: "flex",
-    alignItems: "center"
-  }
-})
+    alignItems: "center",
+  },
+});
