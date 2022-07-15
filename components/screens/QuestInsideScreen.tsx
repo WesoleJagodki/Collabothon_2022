@@ -46,7 +46,7 @@ export const QuestInsideScreen = function ({ navigation }: any): JSX.Element {
                               <Text style={quest_inside_screen_style.text2}>10</Text>
                           </View>
                           <Button
-                              bg="#00AEEB"
+                              bg="#ED7B1F"
                               style={quest_inside_screen_style.button1}
                           >
                               <Text style={quest_inside_screen_style.text4}>Lern more</Text>
@@ -65,7 +65,7 @@ export const QuestInsideScreen = function ({ navigation }: any): JSX.Element {
                               <Text style={quest_inside_screen_style.text2}>10</Text>
                           </View>
                           <Button
-                              bg="#00AEEB"
+                              bg="#ED7B1F"
                               style={quest_inside_screen_style.button1}
                           >
                               <Text style={quest_inside_screen_style.text4}>Lern more</Text>
@@ -86,7 +86,7 @@ export const QuestInsideScreen = function ({ navigation }: any): JSX.Element {
                               <Text style={quest_inside_screen_style.text2}>10</Text>
                           </View>
                           <Button
-                              bg="#00AEEB"
+                              bg="#ED7B1F"
                               style={quest_inside_screen_style.button1}
                           >
                               <Text style={quest_inside_screen_style.text4}>Lern more</Text>
@@ -96,6 +96,46 @@ export const QuestInsideScreen = function ({ navigation }: any): JSX.Element {
                           <Image
                               style={quest_inside_screen_style.picture}
                               source={require("../../images/quest-inside-screen-4.png")}
+                              alt="Orientarium ZOO Łódź"
+                          />
+                          <Text style={quest_inside_screen_style.text2}>Binturong (Arctictis binturong)</Text>
+                          {/*<Text style={quest_inside_screen_style.text3}>Collect all the trees pictures to get points</Text>*/}
+                          <View style={quest_inside_screen_style.view2}>
+                              <Image source={require("../../images/quest-inside-screen-8.png")} alt="Orientarium ZOO Łódź"></Image>
+                              <Text style={quest_inside_screen_style.text2}>10</Text>
+                          </View>
+                          <Button
+                              bg="#5E9D75"
+                              style={quest_inside_screen_style.button1}
+                          >
+                              <Text style={quest_inside_screen_style.text4}>Add photo</Text>
+                          </Button>
+                      </Badge>
+                  </View>
+                  <View style={quest_inside_screen_style.view3}>
+                      <Badge shadow={4} rounded={20} style={quest_inside_screen_style.badge}>
+                          <Image
+                              style={quest_inside_screen_style.picture}
+                              source={require("../../images/quest-inside-screen-9.png")}
+                              alt="Orientarium ZOO Łódź"
+                          />
+                          <Text style={quest_inside_screen_style.text2}>Crested porcupine (Hystrix cristata)</Text>
+                          {/*<Text style={quest_inside_screen_style.text3}>Collect all the flower pictures to get points</Text>*/}
+                          <View style={quest_inside_screen_style.view2}>
+                              <Image source={require("../../images/quest-inside-screen-8.png")} alt="Orientarium ZOO Łódź"></Image>
+                              <Text style={quest_inside_screen_style.text2}>10</Text>
+                          </View>
+                          <Button
+                              bg="#5E9D75"
+                              style={quest_inside_screen_style.button1}
+                          >
+                              <Text style={quest_inside_screen_style.text4}>Add photo</Text>
+                          </Button>
+                      </Badge>
+                      <Badge shadow={4} rounded={20} style={quest_inside_screen_style.badge}>
+                          <Image
+                              style={quest_inside_screen_style.picture}
+                              source={require("../../images/quest-inside-screen-10.png")}
                               alt="Orientarium ZOO Łódź"
                           />
                           <Text style={quest_inside_screen_style.text2}>Binturong (Arctictis binturong)</Text>

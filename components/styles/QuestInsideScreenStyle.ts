@@ -18,6 +18,7 @@ export const quest_inside_screen_style = StyleSheet.create({
     },
     badge: {
         width: "47%",
+        height: "90%",
         backgroundColor: "white",
     },
     text2: {
@@ -34,11 +35,12 @@ export const quest_inside_screen_style = StyleSheet.create({
         fontSize: 10,
         height: 12,
         width: "100%",
-        color: "white"
+        color: "white",
     },
     test: {
         position: "absolute",
-        bottom: "6%"
+        bottom: "6%",
+        height: "70%",
     },
     view1: {
         flexDirection: "row",
@@ -46,15 +48,23 @@ export const quest_inside_screen_style = StyleSheet.create({
         alignSelf: "center",
         justifyContent: "space-between",
         paddingHorizontal: 12,
-        marginTop: 25
+        marginBottom: 20
     },
     view2: {
         flexDirection: "row",
         justifyContent: "center"
     },
+    view3: {
+        flexDirection: "row",
+        width: "96%",
+        alignSelf: "center",
+        justifyContent: "space-between",
+        paddingHorizontal: 12,
+        marginBottom: "55%"
+    },
     button1: {
-        width: "50%",
-        height: "10%",
+        width: "60%",
+        height: "8%",
         borderRadius: 5,
         alignSelf: "center"
     }
