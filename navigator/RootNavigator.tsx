@@ -19,6 +19,7 @@ import { ShowFeeding } from "../components/screens/info/ShowFeeding";
 import { OpeningHours } from "../components/screens/info/OpeningHours";
 import { TicketDetailsScreen } from "../components/screens/TicketDetailsScreen";
 import { FlowersMissionScreen } from "../components/screens/FlwersMissionScreen";
+import { UploadFlowerImageScreen } from "../components/screens/UploadFlowerImageScreen";
 const Stack = createNativeStackNavigator();
 
 export const RootNavigator = function (): JSX.Element {
@@ -93,6 +94,11 @@ export const RootNavigator = function (): JSX.Element {
         name="UploadImageScreen"
         component={UploadImageScreen}
         options={{ title: "UploadImageScreen" }}
+      />
+      <Stack.Screen
+        name="UploadFlowerImageScreen"
+        component={UploadFlowerImageScreen}
+        options={{ title: "UploadFlowerImageScreen" }}
       />
       <Stack.Screen
         name="OpeningHours"
