@@ -6,21 +6,22 @@ import { RegistrationScreen } from "../components/screens/RegistrationScreen";
 import { LoginScreen } from "../components/screens/LoginScreen";
 import { MainScreen } from "../components/screens/MainScreen";
 import { QuestScreen } from "../components/screens/QuestScreen";
+import { QuestInsideScreen } from "../components/screens/QuestInsideScreen";
 import { TicketsScreen } from "../components/screens/TicketsScreen";
 import { MapScreen } from "../components/screens/MapScreen";
 import { InfoScreen } from "../components/screens/info/InfoScreen";
 import { AboutUs } from "../components/screens/info/AboutUs";
-import { OpeningHours } from "../components/screens/info/OpeningHours";
+
 import { PicturePickerScreen } from "../components/screens/PicturePickerScreen";
 
 const Stack = createNativeStackNavigator();
-    
+
 export const RootNavigator = function (): JSX.Element {
   return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen
         name="Root"
-        component={MainScreen}
+        component={QuestInsideScreen}
         options={{ title: "LoadingScreen" }}
       />
       <Stack.Screen
@@ -43,6 +44,11 @@ export const RootNavigator = function (): JSX.Element {
         component={QuestScreen}
         options={{ title: "QuestScreen" }}
       />
+    <Stack.Screen
+        name="QuestInsideScreen"
+        component={QuestInsideScreen}
+        options={{ title: "QuestInsideScreen" }}
+    />
       <Stack.Screen
         name="TicketsScreen"
         component={TicketsScreen}
@@ -57,11 +63,6 @@ export const RootNavigator = function (): JSX.Element {
         name="InfoScreen"
         component={InfoScreen}
         options={{ title: "InfoScreen" }}
-      />
-      <Stack.Screen
-              name="OpeningHours"
-              component={OpeningHours}
-        options={{ title: "OpeningHours" }}
       />
       <Stack.Screen
         name="AboutUs"
