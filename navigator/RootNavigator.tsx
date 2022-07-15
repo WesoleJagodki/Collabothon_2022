@@ -14,6 +14,8 @@ import { AboutUs } from "../components/screens/info/AboutUs";
 import { ShowFeeding } from "../components/screens/info/ShowFeeding";
 
 import { PicturePickerScreen } from "../components/screens/PicturePickerScreen";
+import { TicketDetailsScreen } from "../components/screens/TicketDetailsScreen";
+import { OpeningHours } from "../components/screens/info/OpeningHours";
 
 const Stack = createNativeStackNavigator();
 
