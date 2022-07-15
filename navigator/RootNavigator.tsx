@@ -6,6 +6,7 @@ import { RegistrationScreen } from "../components/screens/RegistrationScreen";
 import { LoginScreen } from "../components/screens/LoginScreen";
 import { MainScreen } from "../components/screens/MainScreen";
 import { QuestScreen } from "../components/screens/QuestScreen";
+import { QuestInsideScreen } from "../components/screens/QuestInsideScreen";
 import { TicketsScreen } from "../components/screens/TicketsScreen";
 import { MapScreen } from "../components/screens/MapScreen";
 import { InfoScreen } from "../components/screens/info/InfoScreen";
@@ -20,7 +21,7 @@ export const RootNavigator = function (): JSX.Element {
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen
         name="Root"
-        component={TicketsScreen}
+        component={QuestInsideScreen}
         options={{ title: "LoadingScreen" }}
       />
       <Stack.Screen
@@ -43,6 +44,11 @@ export const RootNavigator = function (): JSX.Element {
         component={QuestScreen}
         options={{ title: "QuestScreen" }}
       />
+    <Stack.Screen
+        name="QuestInsideScreen"
+        component={QuestInsideScreen}
+        options={{ title: "QuestInsideScreen" }}
+    />
       <Stack.Screen
         name="TicketsScreen"
         component={TicketsScreen}

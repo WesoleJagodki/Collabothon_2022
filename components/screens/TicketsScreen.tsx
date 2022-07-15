@@ -23,14 +23,14 @@ export const TicketsScreen = function ({ navigation }: any): JSX.Element {
               text="Tickets"
           >
               <VStack style={tickets_screen_style.vstack1}>
-                  <Image source={require("../../images/header-1.png")} style={tickets_screen_style.picture1}></Image>
+                  <Image source={require("../../images/header-1.png")} style={tickets_screen_style.picture1} alt="Orientarium ZOO Łódź"></Image>
               </VStack>
           </Header>
 
           <View style={tickets_screen_style.view1}>
               <View style={tickets_screen_style.view2}>
                   <View style={tickets_screen_style.view3}>
-                      <Image style={tickets_screen_style.picture2} source={require("../../images/tickets-screen-1.png")} />
+                      <Image style={tickets_screen_style.picture2} source={require("../../images/tickets-screen-1.png")} alt="Orientarium ZOO Łódź" />
                       <Text style={tickets_screen_style.text1}>Ticket with Karta Łodzianina</Text>
                       <Text style={tickets_screen_style.text2}>40 pln</Text>
                       <View style={tickets_screen_style.view4}>
@@ -50,7 +50,7 @@ export const TicketsScreen = function ({ navigation }: any): JSX.Element {
 
                   </View>
                   <View style={tickets_screen_style.view3}>
-                      <Image style={tickets_screen_style.picture2} source={require("../../images/tickets-screen-2.png")} />
+                      <Image style={tickets_screen_style.picture2} source={require("../../images/tickets-screen-2.png")} alt="Orientarium ZOO Łódź" />
                       <Text style={tickets_screen_style.text1}>Ticket Orientarium ZOO Łódź</Text>
                       <Text style={tickets_screen_style.text2}>70 pln</Text>
                       <View style={tickets_screen_style.view4}>
@@ -71,7 +71,7 @@ export const TicketsScreen = function ({ navigation }: any): JSX.Element {
               </View>
               <View style={tickets_screen_style.view2}>
                   <View style={tickets_screen_style.view3}>
-                      <Image style={tickets_screen_style.picture2} source={require("../../images/tickets-screen-3.png")} />
+                      <Image style={tickets_screen_style.picture2} source={require("../../images/tickets-screen-3.png")} alt="Orientarium ZOO Łódź" />
                       <Text style={tickets_screen_style.text1}>Combined ticket: ZOO Łódź and EC1</Text>
                       <Text style={tickets_screen_style.text2}>40 pln</Text>
                       <View style={tickets_screen_style.view4}>
@@ -90,7 +90,7 @@ export const TicketsScreen = function ({ navigation }: any): JSX.Element {
                       </View>
                   </View>
                   <View style={tickets_screen_style.view3}>
-                      <Image style={tickets_screen_style.picture2} source={require("../../images/tickets-screen-4.png")} />
+                      <Image style={tickets_screen_style.picture2} source={require("../../images/tickets-screen-4.png")} alt="Orientarium ZOO Łódź" />
                       <Text style={tickets_screen_style.text1}>Family Ticket (2 + 2)</Text>
                       <Text style={tickets_screen_style.text2}>220 pln</Text>
                       <View style={tickets_screen_style.view4}>

@@ -7,12 +7,10 @@ export const tickets_screen_style = StyleSheet.create({
         height: 35,
         textAlign: "center",
         fontWeight: "bold",
-        // backgroundColor: "red"
     },
     text2: {
         fontSize: 14,
         textAlign: "center",
-        // backgroundColor: "red"
     },
     text3: {
         fontSize: 10,
@@ -33,21 +31,17 @@ export const tickets_screen_style = StyleSheet.create({
         marginLeft: 30
     },
     view1: {
-        // backgroundColor: "blue",
         width: "80%",
         height: "70%"
     },
     view2: {
         flexDirection: "row",
-        // backgroundColor: "red",
         justifyContent: "space-between",
     },
     view3: {
-        // backgroundColor: "green",
         paddingVertical: 10
     },
     view4: {
-        // backgroundColor: "red",
         marginTop: 10,
         height: "10%",
         width: 130,
