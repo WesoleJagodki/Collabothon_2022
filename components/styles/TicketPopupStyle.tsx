@@ -1,10 +1,21 @@
 import { StyleSheet } from "react-native";
 
 export const ticket_popup_style = StyleSheet.create({
-    centeredView: {
-      flex: 1,
-      justifyContent: "center",
-      alignItems: "center",
+  centeredView: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  modalView: {
+    flex: 0.24,
+    margin: 20,
+    backgroundColor: "#F5F5F5",
+    borderRadius: 20,
+    alignItems: "center",
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
     },
     modalView: {
       height: "25%",

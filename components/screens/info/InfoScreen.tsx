@@ -12,7 +12,7 @@ const screens = [
     header: "ZOO information",
     elements: [
       { text: "About us", screen: "AboutUs" },
-      { text: "Opening hours" },
+      { text: "Opening hours", screen: "OpeningHours"},
       { text: "Show feeding" },
       { text: "Restaurants" },
       { text: "Drive" },

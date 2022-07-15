@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Text, View } from "react-native";
-import { Button, NativeBaseProvider, Image, HStack, VStack } from "native-base";
+import { Button, NativeBaseProvider, Image, VStack } from "native-base";
 
 import { global_style } from "../styles/GlobalStyle";
 
