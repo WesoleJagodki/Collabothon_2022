@@ -67,7 +67,7 @@ export const FlowersMissionScreen = function ({
               </View>
               <Button bg="#ED7B1F" style={flowers_mission_screen_style.button1}>
                 <Text style={flowers_mission_screen_style.text4}>
-                  Lern more
+                  Learn more
                 </Text>
               </Button>
             </Badge>
@@ -91,9 +91,9 @@ export const FlowersMissionScreen = function ({
                 ></Image>
                 <Text style={flowers_mission_screen_style.text2}>10</Text>
               </View>
-              <Button bg="#ED7B1F" style={flowers_mission_screen_style.button1}>
+              <Button bg="#5E9D75" style={flowers_mission_screen_style.button1} onPress={() => navigation.navigate("UploadFlowerImageScreen")}>
                 <Text style={flowers_mission_screen_style.text4}>
-                  Lern more
+                  Add photo
                 </Text>
               </Button>
             </Badge>
@@ -120,9 +120,9 @@ export const FlowersMissionScreen = function ({
                 ></Image>
                 <Text style={flowers_mission_screen_style.text2}>10</Text>
               </View>
-              <Button bg="#ED7B1F" style={flowers_mission_screen_style.button1}>
+              <Button bg="#5E9D75" style={flowers_mission_screen_style.button1} onPress={() => navigation.navigate("UploadFlowerImageScreen")}>
                 <Text style={flowers_mission_screen_style.text4}>
-                  Lern more
+                  Add photo
                 </Text>
               </Button>
             </Badge>
@@ -147,7 +147,7 @@ export const FlowersMissionScreen = function ({
                 ></Image>
                 <Text style={flowers_mission_screen_style.text2}>10</Text>
               </View>
-              <Button bg="#5E9D75" style={flowers_mission_screen_style.button1}>
+              <Button bg="#5E9D75" style={flowers_mission_screen_style.button1} onPress={() => navigation.navigate("UploadFlowerImageScreen")}>
                 <Text style={flowers_mission_screen_style.text4}>
                   Add photo
                 </Text>

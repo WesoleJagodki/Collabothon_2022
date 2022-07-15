@@ -1,5 +1,5 @@
-import React from "react";
-import { View, Image, TouchableOpacity } from "react-native";
+import React, { useState } from "react";
+import { View, Button, Image, TouchableOpacity } from "react-native";
 import { Header } from "../header/Header";
 
 import * as ImagePicker from "expo-image-picker";
@@ -9,8 +9,9 @@ import { tickets_screen_style } from "../styles/TicketsScreenStyle";
 import { Footer } from "../footer/Footer";
 import { FooterPage } from "../footer/FooterItem";
 import { upload_image_style } from "../styles/UploadImageStyle";
+import { MessagePopup } from "../popups/MessagePopup";
 
-function uploadImage(image: any) {
+function uploadImage(image: any, successCallback: any, failCallback: any) {
   if (!image?.uri) {
     return;
   }
@@ -30,17 +31,20 @@ function uploadImage(image: any) {
   };
 
   fetch(
-    "https://be07-31-182-74-174.eu.ngrok.io/predict_sunflower",
+    "https://be07-31-182-74-174.eu.ngrok.io/predict_tulip",
     requestOptions
   )
     .then((response) => response.text())
-    .then((result) => console.log(result))
+    .then((result) => JSON.parse(result).result ? successCallback() : failCallback())
     .catch((error) => console.log("error", error));
 }
 
-export const UploadImageScreen = function ({ navigation }: any): JSX.Element {
+export const UploadFlowerImageScreen = function ({ navigation }: any): JSX.Element {
   const [image, setImage] =
     React.useState<null | ImagePicker.ImagePickerResult>(null);
+
+  const [successVisible, setSuccessVisible] = useState(false);
+  const [failureVisible, setFailureVisible] = useState(false);
 
   const pickImage = async () => {
     let result = await ImagePicker.launchCameraAsync({
@@ -67,6 +71,8 @@ export const UploadImageScreen = function ({ navigation }: any): JSX.Element {
           goto2="TicketsScreen"
           text="Upload image"
         >
+          <MessagePopup visible={successVisible} header="Congrats!" description="You have earned 10 paw coins." exitButtonText="Complete" onCancelPressed={() => setSuccessVisible(false)} />
+          <MessagePopup visible={failureVisible} header="Mission Failed" description="The inserted photo does not match." exitButtonText="Close" onCancelPressed={() => setFailureVisible(false)} />
           <VStack style={tickets_screen_style.vstack1}>
             <Pressable onPress={() => navigation.navigate("QuestsScreen")}>
               <Image
@@ -80,7 +86,7 @@ export const UploadImageScreen = function ({ navigation }: any): JSX.Element {
 
         <View style={tickets_screen_style.view1}>
           <Text style={{ fontSize: 18, textAlign: "center", margin: 20 }}>
-            Binturong (Arctictis binturong)
+            Tuplips (Tulipa)
           </Text>
           {image ? (
             <Image
@@ -102,7 +108,7 @@ export const UploadImageScreen = function ({ navigation }: any): JSX.Element {
             <Text style={upload_image_style.btn_text}>Take photo</Text>
           </TouchableOpacity>
           <TouchableOpacity
-            onPress={() => uploadImage(image)}
+            onPress={() => uploadImage(image, () => (setSuccessVisible(true)), () => setFailureVisible(true))}
             style={upload_image_style.upload_button}
           >
             <Text style={upload_image_style.btn_text}>Send image</Text>

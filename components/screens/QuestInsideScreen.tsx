@@ -56,7 +56,7 @@ export const QuestInsideScreen = function ({ navigation }: any): JSX.Element {
                 <Text style={quest_inside_screen_style.text2}>10</Text>
               </View>
               <Button bg="#00AEEB" style={quest_inside_screen_style.button1}>
-                <Text style={quest_inside_screen_style.text4}>Lern more</Text>
+                <Text style={quest_inside_screen_style.text4}>Learn more</Text>
               </Button>
             </Badge>
             <Badge
@@ -81,7 +81,7 @@ export const QuestInsideScreen = function ({ navigation }: any): JSX.Element {
                 <Text style={quest_inside_screen_style.text2}>10</Text>
               </View>
               <Button bg="#00AEEB" style={quest_inside_screen_style.button1}>
-                <Text style={quest_inside_screen_style.text4}>Lern more</Text>
+                <Text style={quest_inside_screen_style.text4}>Learn more</Text>
               </Button>
             </Badge>
           </View>
@@ -108,7 +108,7 @@ export const QuestInsideScreen = function ({ navigation }: any): JSX.Element {
                 <Text style={quest_inside_screen_style.text2}>10</Text>
               </View>
               <Button bg="#00AEEB" style={quest_inside_screen_style.button1}>
-                <Text style={quest_inside_screen_style.text4}>Lern more</Text>
+                <Text style={quest_inside_screen_style.text4}>Learn more</Text>
               </Button>
             </Badge>
             <Badge
