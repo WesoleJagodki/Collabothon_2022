@@ -12,7 +12,7 @@ import { MapScreen } from "../components/screens/MapScreen";
 import { InfoScreen } from "../components/screens/info/InfoScreen";
 import { AboutUs } from "../components/screens/info/AboutUs";
 
-import { PicturePickerScreen } from "../components/screens/PicturePickerScreen";
+import { UploadImageScreen } from "../components/screens/UploadImageScreen";
 import { TicketDetailsScreen } from "../components/screens/TicketDetailsScreen";
 import { OpeningHours } from "../components/screens/info/OpeningHours";
 
@@ -71,11 +71,10 @@ export const RootNavigator = function (): JSX.Element {
         component={AboutUs}
         options={{ title: "AboutUs" }}
       />
-
       <Stack.Screen
-        name="PicturePickerScreen"
-        component={PicturePickerScreen}
-        options={{ title: "PicturePickerScreen" }}
+        name="UploadImageScreen"
+        component={UploadImageScreen}
+        options={{ title: "UploadImageScreen" }}
       />
       <Stack.Screen
         name="OpeningHours"
