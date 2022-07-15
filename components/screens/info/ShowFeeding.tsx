@@ -3,26 +3,19 @@ import { FooterPage } from "../../footer/FooterItem";
 import { Header } from "../../header/Header";
 import { style } from "../../styles/ShowFeedingStyle";
 import { global_style } from "../../styles/GlobalStyle";
-import {
-  Pressable,
-  Image,
-  NativeBaseProvider,
-  VStack,
-  HStack,
-} from "native-base";
+import { Image, NativeBaseProvider, VStack } from "native-base";
 import React from "react";
-import { ScrollView, Text, View } from "react-native";
+import { Text, View } from "react-native";
 
 export const ShowFeeding = function ({ navigation }: any): JSX.Element {
-  const arrow = require("../../../images/arrow.png");
   return (
     <NativeBaseProvider>
       <View style={global_style.container}>
         <Header
           navigation={navigation}
-          picture={3}
-          account={1}
-          goto="LoginScreen"
+          picture={2}
+          account={2}
+          goto="InfoScreen"
           text="Opening hours"
         />
         <View>
@@ -55,9 +48,11 @@ export const ShowFeeding = function ({ navigation }: any): JSX.Element {
             </VStack>
             <View style={style.img}>
               <Image
+                rounded={10}
                 source={require("../../../images/eat1.jpg")}
-                height={"300"}
+                height={"200"}
                 width={"300"}
+                top={"15%"}
                 alt="eat"
               />
             </View>

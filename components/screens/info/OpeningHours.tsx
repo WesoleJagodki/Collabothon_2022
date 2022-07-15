@@ -5,18 +5,17 @@ import { style } from "../../styles/OpeningHoursStyle";
 import { global_style } from "../../styles/GlobalStyle";
 import { Image, NativeBaseProvider } from "native-base";
 import React from "react";
-import { ScrollView, Text, View } from "react-native";
+import { Text, View } from "react-native";
 
 export const OpeningHours = function ({ navigation }: any): JSX.Element {
-  const arrow = require("../../../images/arrow.png");
   return (
     <NativeBaseProvider>
       <View style={global_style.container}>
         <Header
           navigation={navigation}
-          picture={3}
-          account={1}
-          goto="LoginScreen"
+          picture={2}
+          account={2}
+          goto="InfoScreen"
           text="Opening hours"
         />
 
@@ -39,12 +38,13 @@ export const OpeningHours = function ({ navigation }: any): JSX.Element {
                 source={require("../../../images/time.png")}
                 height={"400"}
                 width={"350"}
+                top={"-20%"}
                 alt="sloth"
               />
+              <Footer navigation={navigation} currentScreen={FooterPage.INFO} />
             </View>
           </View>
         </View>
-        <Footer navigation={navigation} currentScreen={FooterPage.INFO} />
       </View>
     </NativeBaseProvider>
   );

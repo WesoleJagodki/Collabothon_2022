@@ -13,13 +13,14 @@ export const style = StyleSheet.create({
     fontWeight: "400",
     fontSize: 18,
     lineHeight: 22,
+    top: "2%",
   },
-
   text2: {
     fontSize: 18,
     lineHeight: 22,
     fontWeight: "bold",
     color: "green",
+    top: "10%",
   },
   listHeader: {
     fontWeight: "700",

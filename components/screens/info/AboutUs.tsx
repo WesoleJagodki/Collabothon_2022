@@ -13,8 +13,8 @@ export const AboutUs = function ({ navigation }: any): JSX.Element {
       <View style={global_style.container}>
         <Header
           navigation={navigation}
-          picture={3}
-          account={1}
+          picture={2}
+          account={2}
           goto="InfoScreen"
           text="About us"
         />
