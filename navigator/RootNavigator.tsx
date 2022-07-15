@@ -10,17 +10,17 @@ import { TicketsScreen } from "../components/screens/TicketsScreen";
 import { MapScreen } from "../components/screens/MapScreen";
 import { InfoScreen } from "../components/screens/info/InfoScreen";
 import { AboutUs } from "../components/screens/info/AboutUs";
-
+import { OpeningHours } from "../components/screens/info/OpeningHours";
 import { PicturePickerScreen } from "../components/screens/PicturePickerScreen";
 
 const Stack = createNativeStackNavigator();
-
+    
 export const RootNavigator = function (): JSX.Element {
   return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen
         name="Root"
-        component={TicketsScreen}
+        component={MainScreen}
         options={{ title: "LoadingScreen" }}
       />
       <Stack.Screen
@@ -57,6 +57,11 @@ export const RootNavigator = function (): JSX.Element {
         name="InfoScreen"
         component={InfoScreen}
         options={{ title: "InfoScreen" }}
+      />
+      <Stack.Screen
+              name="OpeningHours"
+              component={OpeningHours}
+        options={{ title: "OpeningHours" }}
       />
       <Stack.Screen
         name="AboutUs"

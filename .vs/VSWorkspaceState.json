@@ -1,5 +1,16 @@
 {
-  "ExpandedNodes": [""],
-  "SelectedNode": "\\app.json",
+  "ExpandedNodes": [
+    "",
+    "\\.idea",
+    "\\assets",
+    "\\components",
+    "\\components\\popups",
+    "\\components\\screens",
+    "\\components\\screens\\info",
+    "\\components\\styles",
+    "\\images",
+    "\\navigator"
+  ],
+  "SelectedNode": "\\components\\screens\\info\\AboutUs.tsx",
   "PreviewInSolutionExplorer": false
 }
