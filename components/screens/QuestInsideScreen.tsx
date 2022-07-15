@@ -132,7 +132,11 @@ export const QuestInsideScreen = function ({ navigation }: any): JSX.Element {
                 ></Image>
                 <Text style={quest_inside_screen_style.text2}>10</Text>
               </View>
-              <Button bg="#5E9D75" style={quest_inside_screen_style.button1}>
+              <Button
+                bg="#5E9D75"
+                style={quest_inside_screen_style.button1}
+                onPress={() => navigation.navigate("UploadImageScreen")}
+              >
                 <Text style={quest_inside_screen_style.text4}>Add photo</Text>
               </Button>
             </Badge>

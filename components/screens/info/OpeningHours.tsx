@@ -1,7 +1,7 @@
 import { Footer } from "../../footer/Footer";
 import { FooterPage } from "../../footer/FooterItem";
 import { Header } from "../../header/Header";
-import { style } from "../../styles/AboutUs";
+import { style } from "../../styles/OpeningHoursStyle";
 import { global_style } from "../../styles/GlobalStyle";
 import { Image, NativeBaseProvider } from "native-base";
 import React from "react";

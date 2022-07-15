@@ -36,6 +36,9 @@ export const style = StyleSheet.create({
     marginRight: 29,
     textDecorationLine: "underline",
   },
+  vstack1: {
+    marginLeft: 30,
+  },
   img: {
     width: "100%",
     marginTop: 15,
@@ -49,5 +52,9 @@ export const style = StyleSheet.create({
     width: "100%",
     marginTop: 25,
     marginBottom: 25,
+  },
+  picture1: {
+    width: 30,
+    height: 30,
   },
 });

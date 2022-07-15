@@ -38,7 +38,6 @@ export const quest_inside_screen_style = StyleSheet.create({
   },
   test: {
     position: "absolute",
-    bottom: "6%",
   },
   view1: {
     flexDirection: "row",
@@ -47,6 +46,7 @@ export const quest_inside_screen_style = StyleSheet.create({
     justifyContent: "space-between",
     paddingHorizontal: 12,
     marginTop: 25,
+    marginBottom: 15,
   },
   view2: {
     flexDirection: "row",
