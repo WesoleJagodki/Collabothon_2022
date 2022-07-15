@@ -18,7 +18,7 @@ export const BuyTicketPopup = function ({
   onCancelPressed,
   ticketImage,
   ticketDescription,
-  ticketPrice
+  ticketPrice,
 }: Props): JSX.Element {
   const [ticketCount, setTicketCount] = useState(1);
   return (
@@ -33,28 +33,53 @@ export const BuyTicketPopup = function ({
       >
         <View style={ticket_popup_style.centeredView}>
           <View style={ticket_popup_style.modalView}>
-            <Text style={ticket_popup_style.modalHeader}>Are you sure you want to buy?</Text>
-            <Text style={ticket_popup_style.modalText}>Specify the number of pieces you want to buy.</Text>
+            <Text style={ticket_popup_style.modalHeader}>
+              Are you sure you want to buy?
+            </Text>
+            <Text style={ticket_popup_style.modalText}>
+              Specify the number of pieces you want to buy.
+            </Text>
             <HStack>
               <Image
                 source={ticketImage}
                 width={90}
                 height={90}
-                style={{margin: 10}}
+                style={{ margin: 10 }}
               />
               <VStack>
                 <HStack>
-                  <Text style={ticket_popup_style.modalDescription}>{ticketDescription}</Text>
-                  <Text style={ticket_popup_style.modalPrice}>{ticketPrice}</Text>
+                  <Text style={ticket_popup_style.modalDescription}>
+                    {ticketDescription}
+                  </Text>
+                  <Text style={ticket_popup_style.modalPrice}>
+                    {ticketPrice}
+                  </Text>
                 </HStack>
                 <HStack space={2}>
-                  <TouchableOpacity style={ticket_popup_style.ticketButton} onPress={() => (ticketCount > 1 ? setTicketCount(ticketCount - 1) : 1)}><Text>-</Text></TouchableOpacity>
-                  <Input variant="rounded" style={ticket_popup_style.ticketCount} width={20} value={String(ticketCount)} />
-                  <TouchableOpacity style={ticket_popup_style.ticketButton} onPress={() => setTicketCount(ticketCount + 1)}><Text>+</Text></TouchableOpacity>
+                  <TouchableOpacity
+                    style={ticket_popup_style.ticketButton}
+                    onPress={() =>
+                      ticketCount > 1 ? setTicketCount(ticketCount - 1) : 1
+                    }
+                  >
+                    <Text>-</Text>
+                  </TouchableOpacity>
+                  <Input
+                    variant="rounded"
+                    style={ticket_popup_style.ticketCount}
+                    width={20}
+                    value={String(ticketCount)}
+                  />
+                  <TouchableOpacity
+                    style={ticket_popup_style.ticketButton}
+                    onPress={() => setTicketCount(ticketCount + 1)}
+                  >
+                    <Text>+</Text>
+                  </TouchableOpacity>
                 </HStack>
               </VStack>
             </HStack>
-            <HStack style={{flex: 1}}>
+            <HStack style={{ flex: 1 }}>
               <TouchableOpacity
                 style={ticket_popup_style.button}
                 onPress={() => onCancelPressed()}
@@ -74,4 +99,3 @@ export const BuyTicketPopup = function ({
     </View>
   );
 };
-

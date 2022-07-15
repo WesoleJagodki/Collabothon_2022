@@ -44,11 +44,11 @@ export const RootNavigator = function (): JSX.Element {
         component={QuestScreen}
         options={{ title: "QuestScreen" }}
       />
-    <Stack.Screen
+      <Stack.Screen
         name="QuestInsideScreen"
         component={QuestInsideScreen}
         options={{ title: "QuestInsideScreen" }}
-    />
+      />
       <Stack.Screen
         name="TicketsScreen"
         component={TicketsScreen}

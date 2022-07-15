@@ -1,16 +1,9 @@
-import { NativeBaseProvider, View, Text } from "native-base";
+import { NativeBaseProvider, View } from "native-base";
 import React, { useEffect, useState } from "react";
-import {
-  StyleSheet,
-  Image,
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  Dimensions,
-} from "react-native";
+import { Image, SafeAreaView, ScrollView, Dimensions } from "react-native";
 
 import * as Location from "expo-location";
-import { create, all, Matrix } from "mathjs";
+import { create, all } from "mathjs";
 
 import { map_screen } from "../styles/MapScreenStyle";
 import { global_style } from "../styles/GlobalStyle";

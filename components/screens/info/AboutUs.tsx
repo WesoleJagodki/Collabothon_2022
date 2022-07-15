@@ -19,7 +19,7 @@ export const AboutUs = function ({ navigation }: any): JSX.Element {
           text="About us"
         />
         <View>
-          <ScrollView style={style.view} >
+          <ScrollView style={style.view}>
             <View style={style.container}>
               <Text style={style.text}>
                 Our mission is to protect endangered species, educate and
