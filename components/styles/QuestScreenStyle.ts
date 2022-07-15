@@ -17,6 +17,12 @@ export const quest_screen_style = StyleSheet.create({
         borderRadius: 10
     },
     badge: {
+        // width: "85%",
+        // height: "30%",
+        backgroundColor: "white",
+        // marginBottom: 20
+    },
+    touchable: {
         width: "85%",
         height: "30%",
         backgroundColor: "white",
