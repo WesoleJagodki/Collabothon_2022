@@ -13,14 +13,11 @@ import { InfoScreen } from "../components/screens/info/InfoScreen";
 import { AboutUs } from "../components/screens/info/AboutUs";
 
 import { UploadImageScreen } from "../components/screens/UploadImageScreen";
-import { TicketDetailsScreen } from "../components/screens/TicketDetailsScreen";
-import { OpeningHours } from "../components/screens/info/OpeningHours";
 
 import { AccountScreen } from "../components/screens/AccountScreen";
 import { ShowFeeding } from "../components/screens/info/ShowFeeding";
 import { OpeningHours } from "../components/screens/info/OpeningHours";
 import { TicketDetailsScreen } from "../components/screens/TicketDetailsScreen";
-import { PicturePickerScreen } from "../components/screens/PicturePickerScreen";
 import { FlowersMissionScreen } from "../components/screens/FlwersMissionScreen";
 const Stack = createNativeStackNavigator();
 
