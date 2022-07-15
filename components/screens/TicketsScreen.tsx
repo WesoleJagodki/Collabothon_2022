@@ -15,19 +15,11 @@ export const TicketsScreen = function ({ navigation }: any): JSX.Element {
       <View style={global_style.container}>
         <Header
           navigation={navigation}
-          picture={3}
-          account={1}
+          picture={1}
+          account={2}
           goto="LoginScreen"
           text="Tickets"
-        >
-          <VStack style={tickets_screen_style.vstack1}>
-            <Image
-              source={require("../../images/header-1.png")}
-              style={tickets_screen_style.picture1}
-              alt="Orientarium ZOO Łódź"
-            ></Image>
-          </VStack>
-        </Header>
+        />
 
         <View style={tickets_screen_style.view1}>
           <View style={tickets_screen_style.view2}>
