@@ -10,7 +10,6 @@ import {
 } from "native-base";
 
 import { global_style } from "../styles/GlobalStyle";
-import { quest_screen_style } from "../styles/QuestScreenStyle";
 
 import { Footer } from "../footer/Footer";
 import { FooterPage } from "../footer/FooterItem";
@@ -30,7 +29,7 @@ export const FlowersMissionScreen = function ({
           navigation={navigation}
           picture={3}
           account={2}
-          goto="LoginScreen"
+          goto="QuestScreen"
           text="Flower mission"
         >
           <VStack style={tickets_screen_style.vstack1}>
