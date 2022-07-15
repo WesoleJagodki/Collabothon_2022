@@ -24,8 +24,8 @@ export const RootNavigator = function (): JSX.Element {
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen
         name="Root"
-        component={ShowFeeding}
-        options={{ title: "LoadingScreen" }}
+        component={LoginScreen}
+        options={{ title: "LoginScreen" }}
       />
       <Stack.Screen
         name="RegistrationScreen"

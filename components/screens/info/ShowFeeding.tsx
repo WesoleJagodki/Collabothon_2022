@@ -3,7 +3,7 @@ import { FooterPage } from "../../footer/FooterItem";
 import { Header } from "../../header/Header";
 import { style } from "../../styles/ShowFeedingStyle";
 import { global_style } from "../../styles/GlobalStyle";
-import { Image, NativeBaseProvider } from "native-base";
+import { Pressable,Image, NativeBaseProvider, VStack } from "native-base";
 import React from "react";
 import { ScrollView, Text, View } from "react-native";
 
@@ -12,14 +12,13 @@ export const ShowFeeding = function ({ navigation }: any): JSX.Element {
   return (
     <NativeBaseProvider>
       <View style={global_style.container}>
-        <Header
-          navigation={navigation}
-          picture={3}
-          account={1}
-          goto="LoginScreen"
-          text="Show Feeding"
-        />
-                
+              <Header
+                  navigation={navigation}
+                  picture={3}
+                  account={1}
+                  goto="LoginScreen"
+                  text="Opening hours"
+              />
               <View>
             <View style={{ height: 10 }} />
                   <View style={style.container}>

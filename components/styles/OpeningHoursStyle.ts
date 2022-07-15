@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 export const style = StyleSheet.create({
   view: {
-    marginTop: 100,
+    marginTop: 0,
   },
   container: {
     marginLeft: 30,

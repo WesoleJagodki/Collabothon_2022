@@ -13,7 +13,7 @@ const screens = [
     elements: [
       { text: "About us", screen: "AboutUs" },
       { text: "Opening hours", screen: "OpeningHours" },
-      { text: "Show feeding" },
+      { text: "Show feeding", screen: "ShowFeeding" },
       { text: "Restaurants" },
       { text: "Drive" },
       { text: "Contact" },
