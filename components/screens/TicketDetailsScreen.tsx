@@ -50,7 +50,7 @@ export const TicketDetailsScreen = function ({
           onCancelPressed={() => setBuyVisible(false)}
         />
 
-        <View style={tickets_screen_style.view1}>
+        <View style={ticket_details_screen_style.view1}>
           <Text style={{ fontSize: 18 }}>{description}</Text>
           <Image
             source={ticketImage}

@@ -10,4 +10,8 @@ export const ticket_details_screen_style = StyleSheet.create({
     textAlign: "center",
     margin: 10,
   },
+  view1: {
+    width: "90%",
+    height: "70%"
+  }
 });
